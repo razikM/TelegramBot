@@ -7,7 +7,7 @@ public class Settings {
     private boolean isCheckMonoBank;
     private boolean isCheckPrivatBank;
     private boolean isCheckNBU;
-    private Integer TimeUpdate;
+    private Integer timeUpdate;
     private boolean isCheckDisableTimeUpdate;
     private Integer precision;
 
@@ -18,7 +18,7 @@ public class Settings {
         isCheckMonoBank = false;
         isCheckPrivatBank = false;
         isCheckNBU = true;
-        TimeUpdate = 9;
+        timeUpdate = 9;
         isCheckDisableTimeUpdate = true;
         precision = 2;
     }
@@ -72,11 +72,11 @@ public class Settings {
     }
 
     public Integer getTimeUpdate() {
-        return TimeUpdate;
+        return timeUpdate;
     }
 
     public void setTimeUpdate(Integer timeUpdate) {
-        TimeUpdate = timeUpdate;
+        this.timeUpdate = timeUpdate;
     }
 
     public boolean isCheckDisableTimeUpdate() {
