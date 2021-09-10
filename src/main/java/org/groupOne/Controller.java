@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Controller extends TelegramLongPollingBot {
 
-    private final List<String> commands = Arrays.asList("/start", "/help");
+    private final List<String> commands = Arrays.asList("/start", "/help", "/stop");
 
     private Services services;
 
@@ -32,6 +32,8 @@ public class Controller extends TelegramLongPollingBot {
         Message message = update.getMessage();
         if(message.getText().startsWith("/")){
             executeCommand(message.getText(), update);
+        } else {
+            executeNonCommandOrButton(message.getText());
         }
     }
 
@@ -41,6 +43,10 @@ public class Controller extends TelegramLongPollingBot {
         } else {
 //            services.errorMethod();
         }
+    }
+
+    private void executeNonCommandOrButton(String request){
+//        services.someMethod(request);
     }
 
     private boolean isCommandValid(String command){
