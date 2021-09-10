@@ -2,6 +2,9 @@ package org.groupOne.Services;
 
 public enum ButtonName {
     START("/start"),
+    HELP("/help"),
+    STOP("/stop"),
+
     INFO("Получить инфо"),
     SETTINGS("Настройки"),
 
