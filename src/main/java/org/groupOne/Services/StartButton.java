@@ -13,7 +13,7 @@ import static org.groupOne.Services.ButtonName.*;
 
 public class StartButton implements Button{
     private final SendMessageBot sendMessageBot;
-    public final static String START_MESSAGE = "Привет, ";
+    public final static String START_MESSAGE = "Привет, %s. Этот бот поможет отслеживать актуальные курсы валют";
     public StartButton(SendMessageBot sendMessageBotService) {
         this.sendMessageBot = sendMessageBotService;
     }
@@ -22,7 +22,7 @@ public class StartButton implements Button{
     public void execute(Update update, Settings settings) {
         String chatId = update.getMessage().getChatId().toString();
         String firstname = update.getMessage().getFrom().getFirstName();
-        sendMessageBot.SendMessage(chatId,START_MESSAGE + firstname,createKeyBoard());
+        sendMessageBot.SendMessage(chatId,String.format(START_MESSAGE,firstname),createKeyBoard());
     }
 
     private ReplyKeyboard createKeyBoard() {

@@ -14,11 +14,11 @@ public class Controller  extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+        return "1981028194:AAEi89jQSuU9OK7v9NfJ03i3HBsMFNmtuog";
     }
     @Override
     public String getBotUsername() {
-        return "GO_IT_CurrencyInfo_bot";
+        return "JRTB_java_bot";
     }
     @Override
     public void onUpdateReceived(Update update) {
