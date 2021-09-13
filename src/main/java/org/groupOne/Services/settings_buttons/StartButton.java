@@ -1,17 +1,18 @@
-package org.groupOne.Services;
+package org.groupOne.Services.settings_buttons;
 
+import org.groupOne.Services.Button;
+import org.groupOne.Services.SendMessageBot;
+import org.groupOne.Services.Settings;
+import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
-import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
-import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
-import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.groupOne.Services.ButtonName.*;
+import static org.groupOne.Services.button_enam.ButtonName.*;
 
 public class StartButton implements Button {
     private final SendMessageBot sendMessageBot;
@@ -19,7 +20,8 @@ public class StartButton implements Button {
     private List<InlineKeyboardButton> buttonsRow1 = new ArrayList<>();
     private List<InlineKeyboardButton> buttonsRow2 = new ArrayList<>();
     private List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
-    public final static String START_MESSAGE = "Привет, %s. Этот бот поможет отслеживать актуальные курсы валют";
+    public final static String START_MESSAGE = "Привет, %s\uD83D\uDC4B. Этот бот поможет отслеживать актуальные курсы валют";
+
 
     public StartButton(SendMessageBot sendMessageBotService) {
         this.sendMessageBot = sendMessageBotService;
@@ -56,6 +58,31 @@ public class StartButton implements Button {
         keyboard.add(keyboardSecondRow);
         replyKeyboardMarkup.setKeyboard(keyboard);
         return replyKeyboardMarkup;*/
+    }
+
+    public static SendMessage sendStartMenu(long chatId) {
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        InlineKeyboardButton inlineKeyboardButton1 = new InlineKeyboardButton();
+        InlineKeyboardButton inlineKeyboardButton2 = new InlineKeyboardButton();
+        inlineKeyboardButton1.setText(INFO.getButtonName());
+        inlineKeyboardButton1.setCallbackData("get_info");
+        inlineKeyboardButton2.setText(SETTINGS.getButtonName());
+        inlineKeyboardButton2.setCallbackData("get_settings");
+        List<InlineKeyboardButton> keyboardButtonsRow1 = new ArrayList<>();
+        List<InlineKeyboardButton> keyboardButtonsRow2 = new ArrayList<>();
+        keyboardButtonsRow1.add(inlineKeyboardButton1);
+        keyboardButtonsRow2.add(inlineKeyboardButton2);
+
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+        rowList.add(keyboardButtonsRow1);
+        rowList.add(keyboardButtonsRow2);
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        SendMessage message = new SendMessage();
+        message.setChatId(String.valueOf(chatId));
+        message.setText(START_MESSAGE);
+        message.setReplyMarkup(inlineKeyboardMarkup);
+        return message;
     }
 
 }

@@ -1,29 +1,29 @@
-package org.groupOne.Services;
+package org.groupOne.Services.button_enam;
 
 public enum ButtonName {
     START("/start"),
     HELP("/help"),
     STOP("/stop"),
 
-    INFO("Получить инфо"),
-    SETTINGS("Настройки"),
+    INFO("❗ Получить инфо"),
+    SETTINGS("⚙️ Настройки"),
 
-    BANK("Банк"),
+    BANK("\uD83C\uDFE6 Банк"),
     MONOBANK("МоноБанк"),
     PRIVATBANK("ПриватБанк"),
     NBU("НБУ"),
 
-    CURRENCY("Валюта"),
+    CURRENCY("\u200B\uD83D\uDCB4\u200B\uD83D\uDCB1\u200B\uD83D\uDCB5\u200B Валюта"),
     USD("USD"),
     EUR("EUR"),
     RUR("RUR"),
 
-    PRECISION("Кол-во знаков после запятой"),
+    PRECISION("\uD83C\uDFAF Кол-во знаков после запятой"),
     PRECISION_TWO("2"),
     PRECISION_THREE("3"),
     PRECISION_FOUR("4"),
 
-    TIME_UPDATE("Время оповещений"),
+    TIME_UPDATE("\uD83D\uDD57 Время оповещений"),
     TIME_UPDATE_NINE("9"),
     TIME_UPDATE_THEN("10"),
     TIME_UPDATE_ELEVEN("11"),

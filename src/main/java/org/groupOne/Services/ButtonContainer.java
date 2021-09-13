@@ -4,8 +4,10 @@ import com.google.common.collect.ImmutableMap;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.groupOne.Services.settings_buttons.InfoButton;
+import org.groupOne.Services.settings_buttons.StartButton;
 
-import static org.groupOne.Services.ButtonName.START;
+import static org.groupOne.Services.button_enam.ButtonName.*;
 
 public class ButtonContainer {
     private final ImmutableMap<String,Button> buttonMap;
@@ -15,6 +17,7 @@ public class ButtonContainer {
        this.userSettings = new HashMap<>();
        this.buttonMap = ImmutableMap.<String, Button>builder()
                 .put(START.getButtonName(), new StartButton(sendMessageBot))
+                .put(INFO.getButtonName(), new InfoButton(sendMessageBot))
                 .build();
     }
     public Button retrieveButton(String buttonIdentifier){
