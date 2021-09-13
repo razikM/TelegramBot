@@ -10,8 +10,10 @@ public class Settings {
     private Integer timeUpdate;
     private boolean isCheckDisableTimeUpdate;
     private Integer precision;
+    private Long chatId;
 
-    public Settings() {
+    public Settings(Long chatId) {
+        this.chatId = chatId;
         isCheckUSD = true;
         isCheckEUR = false;
         isCheckRUR = false;
@@ -21,6 +23,10 @@ public class Settings {
         timeUpdate = 9;
         isCheckDisableTimeUpdate = true;
         precision = 2;
+    }
+
+    public Long getChatId() {
+        return chatId;
     }
 
     public boolean isCheckUSD() {

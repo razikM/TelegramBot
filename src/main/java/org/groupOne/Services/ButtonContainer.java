@@ -24,7 +24,10 @@ public class ButtonContainer {
         if( userSettings.containsKey(chatId)){
             return userSettings.get(chatId);
         }
-        userSettings.put(chatId,new Settings());
+        userSettings.put(chatId,new Settings(chatId));
         return userSettings.get(chatId);
+    }
+    public Map<Long,Settings> getAlUserSettings(){
+        return userSettings;
     }
 }
