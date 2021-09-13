@@ -15,15 +15,21 @@ import java.nio.file.Paths;
 
 public class PrivatApi implements Serializable {
 
+    public static void main(String[] args) throws IOException, InterruptedException {
+        BankResponse response = new BankResponse();
+        PrivatApi api = new PrivatApi();
+        api.getPrivatRates();
+    }
+
     private static final String privat_url = "https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11";
 
-    public PrivatRates getPrivatRates() throws IOException, InterruptedException {
+    public BankResponse getPrivatRates() throws IOException, InterruptedException {
         getJsonFromPrivat();
         Gson gson = new Gson();
         String json = new String(Files.readAllBytes(Paths.get("src/main/java/org/groupOne/PrivatRateArchive/privatRate" + java.time.LocalDate.now() + ".json")));
         System.out.println(json);
 
-        PrivatRates privatRates = gson.fromJson(json, PrivatRates.class);
+        BankResponse privatRates = gson.fromJson(json, BankResponse.class);
         for (int i = 0; i < privatRates.size(); i++) {
             if (!privatRates.get(i).getCcy().equals("USD")
                     && !privatRates.get(i).getCcy().equals("RUR")
@@ -31,7 +37,7 @@ public class PrivatApi implements Serializable {
                 privatRates.remove(i); //removes BTC rate
             }
         }
-        return privatRates; //returns ArrayList of PrivatRate objects
+        return privatRates; //returns ArrayList of BankResponse objects
     }
 
     public static void getJsonFromPrivat() throws IOException, InterruptedException {

@@ -1,11 +1,12 @@
 package org.groupOne;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 
 /**
  * This class represents an abstraction of a bank response.
  */
-public class BankResponse {
+public class BankResponse extends ArrayList<PrivatRate>{
 
     private String bankName;
     private String currency;
