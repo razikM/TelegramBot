@@ -15,6 +15,7 @@ public class Controller  extends TelegramLongPollingBot {
 
     public Controller() {
         this.buttonContainer = new ButtonContainer(new SendMessageBot(this));
+        timeUpdate = new TimeUpdate(this);
         timeUpdate.startTimer();
     }
 
