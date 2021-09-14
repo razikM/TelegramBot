@@ -1,4 +1,4 @@
-package org.groupOne;
+package org.groupOne.nbu_api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

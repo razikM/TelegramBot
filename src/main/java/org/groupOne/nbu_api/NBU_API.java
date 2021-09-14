@@ -1,4 +1,4 @@
-package org.groupOne;
+package org.groupOne.nbu_api;
 
 
 import java.io.IOException;
