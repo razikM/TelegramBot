@@ -1,12 +1,10 @@
-package org.groupOne;
+package org.groupOne.privat_api;
 
 import com.google.gson.Gson;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
-import java.lang.reflect.Array;
-import java.math.BigDecimal;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;

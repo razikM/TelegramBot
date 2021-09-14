@@ -1,4 +1,4 @@
-package org.groupOne;
+package org.groupOne.privat_api;
 
 import java.util.ArrayList;
 

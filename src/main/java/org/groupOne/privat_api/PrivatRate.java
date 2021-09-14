@@ -1,8 +1,10 @@
-package org.groupOne;
+package org.groupOne.privat_api;
+
+import org.groupOne.privat_api.PrivatApi;
 
 import java.math.BigDecimal;
 
-public class PrivatRate extends PrivatApi{
+public class PrivatRate extends PrivatApi {
 
 
 
