@@ -8,7 +8,7 @@ public class PrivatRate extends PrivatApi {
 
 
 
-    public final String bankName = "PrivatBank";
+    public final String bankName = "Privat";
     private BigDecimal buy;
     private String ccy;
     private BigDecimal sale;

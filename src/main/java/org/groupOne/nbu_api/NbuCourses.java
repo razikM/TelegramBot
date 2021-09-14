@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 class NbuCourses {
 
-    static private final String BANK_NAME = "НБУ";
+    static private final String BANK_NAME = "NBU";
 
     public static String getBankName() {
         return BANK_NAME;
