@@ -45,7 +45,11 @@ public class PrivatApi implements Serializable {
             response.setBankName(privatRate.getBankName());
             response.setBuyRate(privatRate.getBuy());
             response.setSellRate(privatRate.getSale());
-            response.setCurrency(privatRate.getCcy());
+            if(privatRate.getCcy().equals("RUR")){
+                response.setCurrency("RUB");
+            } else {
+                response.setCurrency(privatRate.getCcy());
+            }
             result.add(response);
         }
 
