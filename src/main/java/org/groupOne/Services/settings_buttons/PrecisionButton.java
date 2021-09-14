@@ -9,7 +9,7 @@ import static org.groupOne.Services.button_enam.ButtonName.*;
 
 public class PrecisionButton {
 
-  public SendMessage sendPrecisionInlineButtons(long chatId) {
+  public SendMessage sendPrecisionInlineButtons(Long chatId) {
 
     InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
     InlineKeyboardButton buttonPrecisionTwo = new InlineKeyboardButton();

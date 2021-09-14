@@ -9,7 +9,7 @@ import static org.groupOne.Services.button_enam.ButtonName.*;
 
 public class BankButton {
 
-  public SendMessage sendBankInlineButtons(long chatId) {
+  public SendMessage sendBankInlineButtons(Long chatId) {
 
     InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
     InlineKeyboardButton buttonBankNbu = new InlineKeyboardButton();

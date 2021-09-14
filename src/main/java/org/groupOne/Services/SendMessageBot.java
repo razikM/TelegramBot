@@ -26,6 +26,7 @@ public void SendMessage(String chatId, String message, ReplyKeyboard replyKeyboa
         e.printStackTrace();
     }
 }
+
 public void EditMessage(){
 
 }

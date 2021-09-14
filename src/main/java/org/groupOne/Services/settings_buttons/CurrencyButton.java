@@ -9,7 +9,7 @@ import static org.groupOne.Services.button_enam.ButtonName.*;
 
 public class CurrencyButton {
 
-  public SendMessage sendCurrencyInlineButtons(long chatId) {
+  public SendMessage sendCurrencyInlineButtons(Long chatId) {
 
     InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
     InlineKeyboardButton buttonCurrencyUSD = new InlineKeyboardButton();
