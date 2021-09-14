@@ -66,7 +66,6 @@ public class StartButton implements Button {
         String firstname = update.getMessage().getFrom().getFirstName();
         String START_MESSAGE = "Привет, " + firstname + "\uD83D\uDC4B. Этот бот поможет отслеживать актуальные курсы валют";
 
-
         InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
         InlineKeyboardButton inlineKeyboardButton1 = new InlineKeyboardButton();
         InlineKeyboardButton inlineKeyboardButton2 = new InlineKeyboardButton();
@@ -89,5 +88,4 @@ public class StartButton implements Button {
         message.setReplyMarkup(inlineKeyboardMarkup);
         return message;
     }
-
 }
