@@ -1,11 +1,19 @@
 package org.groupOne;
 
+import java.math.BigDecimal;
+
 public class PrivatRate extends PrivatApi{
 
+
+
     public final String bankName = "PrivatBank";
-    private double buy;
+    private BigDecimal buy;
     private String ccy;
-    private double sale;
+    private BigDecimal sale;
+
+    public String getBankName() {
+        return bankName;
+    }
 
     public String getCcy() {
         return ccy;
@@ -15,19 +23,19 @@ public class PrivatRate extends PrivatApi{
         this.ccy = ccy;
     }
 
-    public double getBuy() {
+    public BigDecimal getBuy() {
         return buy;
     }
 
-    public void setBuy(Long buy) {
+    public void setBuy(BigDecimal buy) {
         this.buy = buy;
     }
 
-    public double getSale() {
+    public BigDecimal getSale() {
         return sale;
     }
 
-    public void setSale(Long sale) {
+    public void setSale(BigDecimal sale) {
         this.sale = sale;
     }
 

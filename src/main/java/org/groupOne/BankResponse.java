@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /**
  * This class represents an abstraction of a bank response.
  */
-public class BankResponse extends ArrayList<PrivatRate>{
+public class BankResponse {
 
     private String bankName;
     private String currency;
