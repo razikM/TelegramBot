@@ -1,40 +1,45 @@
 package org.groupOne.facade;
 
+import org.groupOne.BankResponse;
+import org.groupOne.nbu_api.NBU_API;
+import org.groupOne.privat_api.PrivatApi;
+
+import java.io.IOException;
 import java.util.List;
 
 public class Facade {
 
-//    private PrivatAPI privatAPI;
-//    private NbuAPI nbuAPI;
+    private PrivatApi privatAPI;
+    private NBU_API nbuAPI;
 //    private MonoAPI monoAPI;
 //
-//    public Facade(PrivatAPI privatAPI, NbuAPI nbuAPI, MonoAPI monoAPI) {
-//        this.privatAPI = privatAPI;
-//        this.nbuAPI = nbuAPI;
+    public Facade(PrivatApi privatAPI, NBU_API nbuAPI /*, MonoAPI monoAPI*/) {
+        this.privatAPI = privatAPI;
+        this.nbuAPI = nbuAPI;
 //        this.monoAPI = monoAPI;
-//    }
+    }
 //
-//    public void setPrivatAPI(PrivatAPI privatAPI) {
-//        this.privatAPI = privatAPI;
-//    }
-//
-//    public void setNbuAPI(NbuAPI nbuAPI) {
-//        this.nbuAPI = nbuAPI;
-//    }
+    public void setPrivatAPI(PrivatApi privatAPI) {
+        this.privatAPI = privatAPI;
+    }
+
+    public void setNbuAPI(NBU_API nbuAPI) {
+        this.nbuAPI = nbuAPI;
+    }
 //
 //    public void setMonoAPI(MonoAPI monoAPI) {
 //        this.monoAPI = monoAPI;
 //    }
 //
-//    public static List<BankResponse> getInfo(String bankName){
-//        if(bankName.equals("Privat")){
-//            return privatAPI.getInfo();
-//        } else if (bankName.equals("Nbu")){
-//            return NbuAPI.getInfo();
-//        } else if(bankName.equals("Mono")){
-//            return monoAPI.getInfo();
-//        } else {
-//            throw new RuntimeException("Unknown bank name");
-//        }
-//    }
+    public List<BankResponse> getInfo(String bankName) throws IOException, InterruptedException {
+        if(bankName.equals("Privat")){
+            return privatAPI.getPrivatRates();
+        } else if (bankName.equals("NBU")){
+            return nbuAPI.getInfo();
+        } /*else if(bankName.equals("Mono")){
+            return monoAPI.getInfo();
+        }*/else {
+            throw new RuntimeException("Unknown bank name");
+        }
+    }
 }

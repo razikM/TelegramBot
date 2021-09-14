@@ -29,7 +29,7 @@ public class PrivatApi implements Serializable {
         ArrayList<BankResponse> result = new ArrayList<>();
         getJsonFromPrivat();
         Gson gson = new Gson();
-        String json = new String(Files.readAllBytes(Paths.get("src/main/java/org/groupOne/PrivatRateArchive/privatRate" + java.time.LocalDate.now() + ".json")));
+        String json = new String(Files.readAllBytes(Paths.get("src/main/java/org/groupOne/privat_api/PrivatRateArchive/privatRate" + java.time.LocalDate.now() + ".json")));
 
         PrivatRates privatRates = gson.fromJson(json, PrivatRates.class);
         for (int i = 0; i < privatRates.size(); i++) {
@@ -53,7 +53,7 @@ public class PrivatApi implements Serializable {
     }
 
     public static void getJsonFromPrivat() throws IOException, InterruptedException {
-        File file = new File("src/main/java/org/groupOne/PrivatRateArchive/privatRate" + java.time.LocalDate.now() + ".json");
+        File file = new File("src/main/java/org/groupOne/privat_api/PrivatRateArchive/privatRate" + java.time.LocalDate.now() + ".json");
         if (!file.exists()) {
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
@@ -62,7 +62,7 @@ public class PrivatApi implements Serializable {
                     .build();
 
             HttpResponse<Path> response = client.send(request, HttpResponse.BodyHandlers
-                    .ofFile(Path.of("src/main/java/org/groupOne/PrivatRateArchive/privatRate" + java.time.LocalDate.now() + ".json")));
+                    .ofFile(Path.of("src/main/java/org/groupOne/privat_api/PrivatRateArchive/privatRate" + java.time.LocalDate.now() + ".json")));
         }
     }
 
