@@ -1,6 +1,7 @@
 package org.groupOne.privat_api;
 
 import com.google.gson.Gson;
+import org.groupOne.BankResponse;
 
 import java.io.File;
 import java.io.IOException;

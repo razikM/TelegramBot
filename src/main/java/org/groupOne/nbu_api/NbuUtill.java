@@ -3,6 +3,7 @@ package org.groupOne.nbu_api;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+import org.groupOne.BankResponse;
 
 import java.io.IOException;
 import java.net.URI;
