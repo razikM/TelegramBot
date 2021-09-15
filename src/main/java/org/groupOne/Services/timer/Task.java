@@ -20,22 +20,22 @@ private Controller telegramBot;
     @Override
     public void run() {
         SendMessage message = new SendMessage();
-        Map<Long, Settings> settings = telegramBot.getSettings();
-        List<Settings> toListSettings = settings.values().stream().toList();
-        for ( Settings st : toListSettings) {
-            if(!st.isCheckDisableTimeUpdate()) {
-                if (st.getTimeUpdate() == LocalTime.now().getHour()) {
-                    Long chatId = st.getChatId();
-                    message.setChatId(chatId.toString());
-                    message.setText("Курс валют USD: 26.7");
-                    try {
-                        telegramBot.execute(message);
-                    } catch (TelegramApiException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        }
+//        Map<Long, Settings> settings = telegramBot.getSettings();
+//        List<Settings> toListSettings = settings.values().stream().toList();
+//        for ( Settings st : toListSettings) {
+//            if(!st.isCheckDisableTimeUpdate()) {
+//                if (st.getTimeUpdate() == LocalTime.now().getHour()) {
+//                    Long chatId = st.getChatId();
+//                    message.setChatId(chatId.toString());
+//                    message.setText("Курс валют USD: 26.7");
+//                    try {
+//                        telegramBot.execute(message);
+//                    } catch (TelegramApiException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
+//            }
+//        }
 
 
        // message.enableHtml(true);

@@ -1,8 +1,6 @@
 package org.groupOne;
 
 import org.apache.log4j.Logger;
-import org.groupOne.Services.ButtonContainer;
-import org.groupOne.Services.SendMessageBot;
 import org.groupOne.Services.Settings;
 import org.groupOne.Services.settings_buttons.BankButton;
 import org.groupOne.Services.settings_buttons.CurrencyButton;
@@ -28,14 +26,14 @@ public class Controller  extends TelegramLongPollingBot {
     private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
     private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
 
-    private final ButtonContainer buttonContainer;
-    private TimeUpdate timeUpdate;
-
-    public Controller() {
-        this.buttonContainer = new ButtonContainer(new SendMessageBot(this));
-        timeUpdate = new TimeUpdate(this);
-        timeUpdate.startTimer();
-    }
+//    private final ButtonContainer buttonContainer;
+//    private TimeUpdate timeUpdate;
+//
+//    public Controller() {
+//        this.buttonContainer = new ButtonContainer(new SendMessageBot(this));
+//        timeUpdate = new TimeUpdate(this);
+//        timeUpdate.startTimer();
+//    }
 
     public static void main(String[] args) {
         try {
@@ -130,11 +128,11 @@ public class Controller  extends TelegramLongPollingBot {
         System.setErr(System.out);
     }
 
-    private void executeCommand(String command,Long chatId, Update update){
-        buttonContainer.retrieveButton(command).execute(update,buttonContainer.getSettingsCurrentUser(chatId));
-    }
-
-    public Map<Long, Settings> getSettings() {
-        return buttonContainer.getAlUserSettings();
-    }
+//    private void executeCommand(String command,Long chatId, Update update){
+//        buttonContainer.retrieveButton(command).execute(update,buttonContainer.getSettingsCurrentUser(chatId));
+//    }
+//
+//    public Map<Long, Settings> getSettings() {
+//        return buttonContainer.getAlUserSettings();
+//    }
 }

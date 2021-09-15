@@ -1,7 +1,5 @@
 package org.groupOne.Services.settings_buttons;
 
-import org.groupOne.Services.Button;
-import org.groupOne.Services.SendMessageBot;
 import org.groupOne.Services.Settings;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -15,25 +13,13 @@ import java.util.List;
 import static org.groupOne.Services.button_enam.ButtonName.*;
 import static org.groupOne.Services.button_enam.ButtonData.*;
 
-public class StartButton implements Button {
-    private final SendMessageBot sendMessageBot;
-    private InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
-    private List<InlineKeyboardButton> buttonsRow1 = new ArrayList<>();
-    private List<InlineKeyboardButton> buttonsRow2 = new ArrayList<>();
-    private List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+public class StartButton {
+
+    private final InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+    private final List<InlineKeyboardButton> buttonsRow1 = new ArrayList<>();
+    private final List<InlineKeyboardButton> buttonsRow2 = new ArrayList<>();
+    private final List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
     public final static String START_MESSAGE = "Привет, %s\uD83D\uDC4B. Этот бот поможет отслеживать актуальные курсы валют";
-
-
-    public StartButton(SendMessageBot sendMessageBotService) {
-        this.sendMessageBot = sendMessageBotService;
-    }
-
-    @Override
-    public void execute(Update update, Settings settings) {
-        String chatId = update.getMessage().getChatId().toString();
-        String firstname = update.getMessage().getFrom().getFirstName();
-        sendMessageBot.SendMessage(chatId, String.format(START_MESSAGE, firstname), createKeyBoard());
-    }
 
     private ReplyKeyboard createKeyBoard() {
 

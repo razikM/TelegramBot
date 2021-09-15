@@ -6,6 +6,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import static org.groupOne.Services.button_enam.ButtonName.*;
+import static org.groupOne.Services.button_enam.ButtonData.*;
 
 public class BankButton {
 
@@ -17,13 +18,13 @@ public class BankButton {
     InlineKeyboardButton buttonBankMono = new InlineKeyboardButton();
 
     buttonBankNbu.setText(NBU.getButtonName());
-    buttonBankNbu.setCallbackData("callback_bank_nbu");
+    buttonBankNbu.setCallbackData(NBU_DATA.getData());
 
-    buttonBankPrivat.setText(PRIVATBANK.getButtonName());
-    buttonBankPrivat.setCallbackData("callback_bank_privat");
+    buttonBankPrivat.setText(PRIVAT_BANK.getButtonName());
+    buttonBankPrivat.setCallbackData(PRIVAT_BANK_DATA.getData());
 
-    buttonBankMono.setText(MONOBANK.getButtonName());
-    buttonBankMono.setCallbackData("callback_bank_mono");
+    buttonBankMono.setText(MONO_BANK.getButtonName());
+    buttonBankMono.setCallbackData(MONO_BANK_DATA.getData());
 
 
     List<InlineKeyboardButton> rowInlineBankNbu  = new ArrayList<>();

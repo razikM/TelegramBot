@@ -6,6 +6,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import static org.groupOne.Services.button_enam.ButtonName.*;
+import static org.groupOne.Services.button_enam.ButtonData.*;
 
 public class CurrencyButton {
 
@@ -17,13 +18,13 @@ public class CurrencyButton {
     InlineKeyboardButton buttonCurrencyRUB = new InlineKeyboardButton();
 
     buttonCurrencyUSD.setText(USD.getButtonName());
-    buttonCurrencyUSD.setCallbackData("callback_currency_usd");
+    buttonCurrencyUSD.setCallbackData(USD_DATA.getData());
 
     buttonCurrencyEUR.setText(EUR.getButtonName());
-    buttonCurrencyEUR.setCallbackData("callback_currency_eur");
+    buttonCurrencyEUR.setCallbackData(EUR_DATA.getData());
 
     buttonCurrencyRUB.setText(RUR.getButtonName());
-    buttonCurrencyRUB.setCallbackData("callback_currency_rub");
+    buttonCurrencyRUB.setCallbackData(RUR_DATA.getData());
 
 
     List<InlineKeyboardButton> rowInlineCurrencyUSD  = new ArrayList<>();

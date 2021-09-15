@@ -23,16 +23,16 @@ public class SettingsButton {
     InlineKeyboardButton buttonTimeUpdate = new InlineKeyboardButton();
 
     buttonPrecision.setText(PRECISION.getButtonName());
-    buttonPrecision.setCallbackData("callback_precision");
+    buttonPrecision.setCallbackData(PRECISION_DATA.getData());
 
     buttonBank.setText(BANK.getButtonName());
-    buttonBank.setCallbackData("callback_bank");
+    buttonBank.setCallbackData(BANK_DATA.getData());
 
     buttonCurrency.setText(CURRENCY.getButtonName());
-    buttonCurrency.setCallbackData("callback_currency");
+    buttonCurrency.setCallbackData(CURRENCY_DATA.getData());
 
     buttonTimeUpdate.setText(TIME_UPDATE.getButtonName());
-    buttonTimeUpdate.setCallbackData("callback_time_update");
+    buttonTimeUpdate.setCallbackData(TIME_UPDATE_DATA.getData());
 
     List<InlineKeyboardButton> rowInlinePrecision  = new ArrayList<>();
     rowInlinePrecision.add(buttonPrecision);

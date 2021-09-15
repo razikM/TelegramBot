@@ -6,6 +6,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import static org.groupOne.Services.button_enam.ButtonName.*;
+import static org.groupOne.Services.button_enam.ButtonData.*;
 
 public class PrecisionButton {
 
@@ -17,13 +18,13 @@ public class PrecisionButton {
     InlineKeyboardButton buttonPrecisionFour = new InlineKeyboardButton();
 
     buttonPrecisionTwo.setText(PRECISION_TWO.getButtonName());
-    buttonPrecisionTwo.setCallbackData("callback_precision_two");
+    buttonPrecisionTwo.setCallbackData(PRECISION_TWO_DATA.getData());
 
     buttonPrecisionThree.setText(PRECISION_THREE.getButtonName());
-    buttonPrecisionThree.setCallbackData("callback_precision_three");
+    buttonPrecisionThree.setCallbackData(PRECISION_THREE_DATA.getData());
 
     buttonPrecisionFour.setText(PRECISION_FOUR.getButtonName());
-    buttonPrecisionFour.setCallbackData("callback_precision_four");
+    buttonPrecisionFour.setCallbackData(PRECISION_FOUR_DATA.getData());
 
 
     List<InlineKeyboardButton> rowInlinePrecisionTwo  = new ArrayList<>();
