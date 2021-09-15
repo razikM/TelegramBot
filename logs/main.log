@@ -1,0 +1,1121 @@
+2021-09-13 21:05:38,440[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:45)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 21:05:39,769[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:45)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 21:08:34,461[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:52)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 21:08:35,123[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:52)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 21:10:28,766[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-13 21:10:32,523[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-13 21:10:33,090[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-13 21:10:36,649[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-13 21:10:37,209[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-13 21:11:27,133[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:11:27,133[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:11:27,149[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:11:27,711[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:11:27,711[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:11:27,727[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:16:58,010[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:16:58,025[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:16:58,027[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:16:58,724[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:16:58,727[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:16:58,732[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:17:02,352[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:17:06,156[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:65)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 21:17:06,890[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:65)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 21:41:41,334[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:41:41,349[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:41:41,353[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:41:42,037[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:41:42,040[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:41:42,046[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:41:46,269[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:42:45,533[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:42:45,545[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:42:45,549[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:42:46,302[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:42:46,305[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:42:46,310[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:43:03,537[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:43:03,549[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:43:03,552[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:43:04,169[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 21:43:04,171[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:43:04,175[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 21:43:06,668[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:20:23,075[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:20:23,100[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:20:23,103[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:20:23,736[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:20:23,744[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:20:23,748[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:20:30,278[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:22:55,387[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:22:55,413[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:22:55,416[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:22:55,988[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:22:55,992[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:22:55,995[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:23:08,174[INFO ][elegram Executor][         org.groupOne.Controller] - hasCallbackQuery = false
+2021-09-13 22:23:08,176[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:23:49,289[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:23:49,302[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:23:49,306[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:23:50,047[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:23:50,051[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:23:50,054[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:23:56,323[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 22:24:13,194[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 22:24:42,215[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:24:42,225[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:24:42,229[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:24:42,858[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:24:42,862[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:24:42,866[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:24:47,404[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:24:47,525[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 22:29:35,338[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:29:35,352[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:29:35,355[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:29:36,031[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:29:36,034[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:29:36,037[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:29:41,424[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:29:41,538[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 22:35:00,730[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:35:00,739[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:35:00,742[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:35:01,328[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:35:01,331[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:35:01,333[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:35:18,196[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:35:18,295[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-13 22:38:50,625[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:38:50,658[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:38:50,662[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:38:51,275[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:38:51,280[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:38:51,282[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:38:55,761[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:38:55,850[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 22:51:37,834[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:51:37,849[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:51:37,852[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:51:38,565[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:51:38,569[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:51:38,572[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:53:01,522[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:53:01,532[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:53:01,535[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:53:02,260[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:53:02,265[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:53:02,270[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:53:17,226[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:53:17,340[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 22:55:49,956[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:55:49,972[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:55:49,976[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:55:50,648[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:55:50,652[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:55:50,658[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:55:57,822[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:55:58,033[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 22:56:46,630[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:56:46,645[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:56:46,648[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:56:47,266[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:56:47,269[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:56:47,271[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:57:02,664[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:57:02,782[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 22:57:48,521[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:57:48,537[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:57:48,539[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:57:49,195[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:57:49,198[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:57:49,202[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:57:57,216[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:57:57,310[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 22:59:34,254[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:59:34,268[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:59:34,271[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:59:34,860[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:59:34,862[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:59:34,865[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 22:59:43,889[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 22:59:44,008[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 22:59:44,009[INFO ][elegram Executor][         org.groupOne.Controller] - get text = /start
+2021-09-13 23:06:06,822[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:06:06,843[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:06:06,846[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:06:07,482[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:06:07,486[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:06:07,488[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:06:18,843[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:06:18,950[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 23:09:21,506[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:09:21,522[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:09:21,525[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:09:22,166[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:09:22,169[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:09:22,171[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:09:28,996[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 23:09:28,997[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:14:51,555[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:14:51,565[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:14:51,567[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:14:52,189[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:14:52,193[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:14:52,197[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:14:58,854[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:14:58,958[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-13 23:14:58,959[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:16:07,150[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:16:07,174[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:16:07,177[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:16:07,826[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:16:07,829[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:16:07,832[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-13 23:16:14,847[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-13 23:16:14,935[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 00:33:44,858[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 00:33:44,873[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 00:33:44,873[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 00:33:45,559[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 00:33:45,562[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 00:33:45,565[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 00:33:50,344[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 00:33:50,457[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 00:49:14,340[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:18,657[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:22,805[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:26,947[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:31,100[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:35,247[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:39,369[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:43,494[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 00:49:47,611[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 01:10:26,112[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:10:26,123[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:10:26,126[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:10:26,705[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:10:26,705[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:10:26,714[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:10:32,502[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:10:32,600[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 01:14:34,336[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:14:34,349[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:14:34,352[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:14:34,956[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:14:34,959[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:14:34,962[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:14:43,825[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:14:43,999[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 01:16:18,943[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:16:18,959[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:16:18,959[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:16:19,615[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:16:19,618[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:16:19,620[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:16:29,016[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:16:29,129[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 01:18:04,758[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:18:04,758[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:18:04,774[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:18:05,321[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:18:05,336[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:18:05,342[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 01:18:13,723[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 01:18:13,856[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 09:57:10,078[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:57:10,113[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:57:10,115[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:57:10,891[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:57:10,891[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:57:10,899[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:57:21,387[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:57:21,502[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 09:57:21,505[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 09:58:30,311[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:58:30,323[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:58:30,327[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:58:31,048[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:58:31,051[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:58:31,056[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:58:40,157[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:58:40,268[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 09:59:43,368[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:59:43,378[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:59:43,381[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:59:43,992[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:59:44,002[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:59:44,007[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 09:59:50,354[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 09:59:50,477[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 09:59:50,481[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:02:01,445[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:02:01,456[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 10:02:01,460[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:02:02,036[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:02:02,036[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 10:02:02,043[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 10:02:07,609[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:02:07,729[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:02:07,742[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:05:17,178[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:05:17,189[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 10:05:17,193[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:05:17,853[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:05:17,855[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 10:05:17,858[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 10:06:27,773[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:116)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:06:40,246[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:06:40,562[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:06:40,563[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:16:33,519[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:16:33,745[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:16:33,746[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:22:47,151[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:22:47,370[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:22:47,370[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:35:57,139[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:35:57,422[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:35:57,423[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:40:40,663[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:40:40,946[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:40:40,947[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:56:57,539[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:01,928[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:06,066[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:10,200[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:14,337[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:18,471[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:22,597[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:26,725[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:30,860[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:34,992[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:39,123[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:43,262[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:47,393[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:51,561[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:55,707[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:57:59,851[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:01,472[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:58:01,736[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:58:01,737[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:58:03,986[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:08,293[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:12,592[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:16,731[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:20,882[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:25,027[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:29,177[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:33,336[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:37,469[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:41,626[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:45,773[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:58:49,913[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:17,166[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:21,403[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:24,225[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:59:24,596[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:59:24,597[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:59:25,673[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:29,804[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:31,944[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:59:32,159[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:59:32,160[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:59:33,938[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:38,070[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:38,637[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 10:59:38,882[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 10:59:38,883[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 10:59:42,196[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 10:59:46,335[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 11:20:23,808[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:20:24,258[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 11:20:24,259[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:47:09,476[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:47:09,864[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 11:47:09,865[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:48:50,446[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:48:50,456[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 11:48:50,458[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:48:51,132[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:48:51,136[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 11:48:51,141[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 11:48:51,635[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:48:51,721[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 11:48:51,722[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:48:54,809[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:48:55,993[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:54:20,955[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.groupOne.Services.Button.execute(org.telegram.telegrambots.meta.api.objects.Update, org.groupOne.Services.Settings)" because the return value of "org.groupOne.Services.ButtonContainer.retrieveButton(String)" is null
+	at org.groupOne.Controller.executeCommand(Controller.java:116)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:54:32,161[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:54:32,391[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 11:54:32,391[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:54:34,752[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:54:35,835[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.hasText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 11:59:53,098[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:59:53,118[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 11:59:53,124[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:59:53,707[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:59:53,710[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 11:59:53,713[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 11:59:56,721[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 11:59:56,861[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 11:59:56,864[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 12:09:02,634[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:09:02,642[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 12:09:02,645[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:09:03,220[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:09:03,223[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 12:09:03,226[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 12:09:06,633[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:09:06,768[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 12:09:06,768[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 12:16:26,605[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 12:16:30,921[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 12:53:46,983[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:53:46,996[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 12:53:46,999[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:53:47,600[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:53:47,604[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 12:53:47,611[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 12:53:51,736[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 12:53:55,872[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 12:53:59,996[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 12:54:04,125[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 12:54:08,243[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-14 12:54:18,407[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 12:54:18,511[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 13:01:51,712[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:01:51,723[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:01:51,726[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:01:52,305[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:01:52,308[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:01:52,312[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:01:54,977[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:01:56,827[INFO ][elegram Executor][         org.groupOne.Controller] - update =get_info
+2021-09-14 13:01:56,828[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:02:04,539[INFO ][elegram Executor][         org.groupOne.Controller] - update =get_settings
+2021-09-14 13:02:04,540[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:04:32,928[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:04:32,940[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:04:32,943[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:04:33,694[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:04:33,697[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:04:33,702[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:04:37,363[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:04:39,039[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 13:04:39,041[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:05:35,761[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-14 13:05:35,763[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:17,846[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:17,861[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:11:17,864[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:18,543[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:18,547[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:11:18,551[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:11:21,425[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:21,521[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:23,741[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 13:11:23,742[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:26,094[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-14 13:11:26,095[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:28,488[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-14 13:11:28,489[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:11:30,064[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision_two
+2021-09-14 13:11:30,065[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:19:49,758[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:19:49,773[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:19:49,775[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:19:50,397[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:19:50,401[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:19:50,410[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:19:57,679[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:19:57,689[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:19:57,692[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:19:58,374[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:19:58,383[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:19:58,394[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:20:02,145[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:20:02,305[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 13:20:02,306[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:20:05,652[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:20:07,361[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:20:08,494[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:20:09,956[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:20:47,928[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:20:47,939[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:20:47,942[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:20:48,818[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:20:48,823[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:20:48,828[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:20:53,164[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 13:20:53,165[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:20:55,631[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:20:57,422[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:22:03,627[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:22:03,639[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:22:03,643[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:22:04,255[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:22:04,258[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:22:04,262[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:22:07,697[INFO ][elegram Executor][         org.groupOne.Controller] - command1 = /start
+2021-09-14 13:22:07,698[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:22:07,870[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:22:09,733[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:22:11,202[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:23:46,948[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:23:46,957[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:23:46,960[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:23:47,570[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:23:47,574[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:23:47,580[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:23:56,612[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:23:56,755[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:23:58,494[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:23:59,665[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:24:59,482[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:24:59,495[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:24:59,512[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:00,105[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:00,109[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:25:00,114[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:25:02,546[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:02,656[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:05,149[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 13:25:05,150[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:07,226[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-14 13:25:07,228[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:25,064[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-14 13:25:25,065[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:26,813[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision_two
+2021-09-14 13:25:26,814[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:27,264[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision_two
+2021-09-14 13:25:27,265[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:27,462[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-14 13:25:27,462[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:25:35,487[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision_two
+2021-09-14 13:25:35,487[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:28:53,633[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:28:53,645[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:28:53,648[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:28:54,344[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:28:54,348[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:28:54,352[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-14 13:29:00,616[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:29:00,756[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:29:02,822[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 13:29:02,823[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:29:06,899[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-14 13:29:06,900[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-14 13:29:50,133[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:29:50,143[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 13:29:50,146[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:29:50,719[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:29:50,722[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 13:29:50,727[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 13:29:58,388[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:29:58,546[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:30:01,091[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 13:30:01,094[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:30:05,064[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 13:30:05,065[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:30:07,089[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-14 13:30:07,090[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:30:09,697[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-14 13:30:09,700[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:30:11,329[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_bank
+2021-09-14 13:30:11,330[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:30:12,612[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_time_update
+2021-09-14 13:30:12,614[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Services.settings_buttons.StartButton.sendStartMenu(StartButton.java:66)
+	at org.groupOne.Controller.menu(Controller.java:114)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:30:14,147[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_currency
+2021-09-14 13:30:14,147[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:30:16,279[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_currency_usd
+2021-09-14 13:30:16,280[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Services.settings_buttons.StartButton.sendStartMenu(StartButton.java:66)
+	at org.groupOne.Controller.menu(Controller.java:114)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:30:18,179[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_currency_eur
+2021-09-14 13:30:18,180[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Services.settings_buttons.StartButton.sendStartMenu(StartButton.java:66)
+	at org.groupOne.Controller.menu(Controller.java:114)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:32:07,464[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision_three
+2021-09-14 13:32:07,465[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Services.settings_buttons.StartButton.sendStartMenu(StartButton.java:66)
+	at org.groupOne.Controller.menu(Controller.java:114)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:32:09,426[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_currency_usd
+2021-09-14 13:32:09,426[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Services.settings_buttons.StartButton.sendStartMenu(StartButton.java:66)
+	at org.groupOne.Controller.menu(Controller.java:114)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 13:33:15,386[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:15,621[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:39,745[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:39,755[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 13:33:39,758[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:40,343[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:40,346[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 13:33:40,353[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 13:33:48,528[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:52,347[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 13:33:52,349[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:56,413[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-14 13:33:56,415[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:33:59,301[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-14 13:33:59,301[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:34:02,004[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_bank
+2021-09-14 13:34:02,005[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:34:03,647[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_currency
+2021-09-14 13:34:03,650[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 13:34:05,781[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_time_update
+2021-09-14 13:34:05,783[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getFrom()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at org.groupOne.Services.settings_buttons.StartButton.sendStartMenu(StartButton.java:66)
+	at org.groupOne.Controller.menu(Controller.java:114)
+	at org.groupOne.Controller.onUpdateReceived(Controller.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-09-14 23:04:17,476[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 23:04:17,487[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 23:04:17,491[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 23:04:18,185[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 23:04:18,185[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 23:04:18,201[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-14 23:04:18,592[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 23:04:20,334[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-14 23:04:20,335[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 23:04:22,590[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-14 23:04:22,591[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-14 23:04:25,711[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-14 23:04:25,712[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:33:25,166[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:33:25,199[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:33:25,201[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:33:25,833[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:33:25,835[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:33:25,840[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:33:26,245[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:33:34,394[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 13:33:34,398[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:33:36,093[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-15 13:33:36,095[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:23,440[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:23,452[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:40:23,455[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:24,080[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:24,083[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:40:24,088[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:40:27,881[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:29,325[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 13:40:29,327[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:30,706[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-15 13:40:30,708[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:32,673[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-15 13:40:32,674[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:40:34,710[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_bank
+2021-09-15 13:40:34,712[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:05,301[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:05,313[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:49:05,315[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:05,878[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:05,880[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:49:05,884[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 13:49:06,301[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:07,899[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 13:49:07,902[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:09,490[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_settings
+2021-09-15 13:49:09,491[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:11,457[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_precision
+2021-09-15 13:49:11,458[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:13,452[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_bank
+2021-09-15 13:49:13,453[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 13:49:16,407[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_currency
+2021-09-15 13:49:16,408[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
