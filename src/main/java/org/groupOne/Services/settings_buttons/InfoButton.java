@@ -2,6 +2,9 @@ package org.groupOne.Services.settings_buttons;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.groupOne.Services.GetMessageInfo;
+import org.groupOne.Services.Settings;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
@@ -15,6 +18,8 @@ public class InfoButton {
   private final List<InlineKeyboardButton> keyboardButtonsRow1 = new ArrayList<>();
   private final List<InlineKeyboardButton> keyboardButtonsRow2 = new ArrayList<>();
   private final List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+  private GetMessageInfo getdMessage = new GetMessageInfo();
+  private Settings settings = new Settings(231L);
 
 
   public ReplyKeyboard sendInfoMenu() {
@@ -50,7 +55,8 @@ public class InfoButton {
     inlineKeyboardMarkup.setKeyboard(rowList);
     SendMessage message = new SendMessage();
     message.setChatId(String.valueOf(chatId));
-    message.setText("Курс в ПриватБанке: USD/UAH\nПокупка: 27.55\nПродажа: 27.95");
+
+    message.setText(getdMessage.getMessageInfo(NBU,settings));
     message.setReplyMarkup(inlineKeyboardMarkup);
     return message;
   }

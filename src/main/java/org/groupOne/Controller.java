@@ -26,15 +26,6 @@ public class Controller  extends TelegramLongPollingBot {
     private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
     private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
 
-//    private final ButtonContainer buttonContainer;
-//    private TimeUpdate timeUpdate;
-//
-//    public Controller() {
-//        this.buttonContainer = new ButtonContainer(new SendMessageBot(this));
-//        timeUpdate = new TimeUpdate(this);
-//        timeUpdate.startTimer();
-//    }
-
     public static void main(String[] args) {
         try {
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);

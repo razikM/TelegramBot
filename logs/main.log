@@ -1119,3 +1119,125 @@ java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.ap
 2021-09-15 13:49:13,453[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
 2021-09-15 13:49:16,407[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_currency
 2021-09-15 13:49:16,408[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:10:16,581[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:10:16,588[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:10:16,590[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:10:17,123[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:10:17,126[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:10:17,129[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:11:18,181[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:11:18,188[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:11:18,190[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:11:18,636[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:11:18,638[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:11:18,641[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:11:26,056[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:41:31,160[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:41:31,170[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:41:31,172[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:41:31,696[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:41:31,699[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:41:31,704[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:41:37,538[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 21:43:12,009[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:47:48,069[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:47:48,077[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:47:48,079[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:47:48,548[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:47:48,550[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:47:48,554[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:47:51,484[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 21:51:36,209[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Remote host terminated the handshake
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1697)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+	... 16 more
+2021-09-15 21:52:08,922[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:52:32,839[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:52:32,845[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:52:32,847[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:52:33,282[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:52:33,284[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:52:33,287[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:52:38,276[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 21:52:38,324[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:53:14,288[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:53:14,295[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:53:14,296[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:53:14,709[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:53:14,711[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:53:14,715[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:53:16,926[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 21:53:16,975[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:56:43,040[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:56:43,047[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:56:43,049[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:56:43,486[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:56:43,489[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:56:43,493[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:56:51,114[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 21:56:51,162[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:04,778[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:04,783[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:59:04,785[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:05,213[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:05,215[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:59:05,218[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:59:10,055[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 21:59:10,318[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:33,296[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:33,304[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:59:33,306[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:33,813[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 21:59:33,815[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:59:33,819[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 21:59:35,455[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 22:02:53,206[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:03:00,693[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 22:04:56,017[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:05:32,533[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:05:32,543[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:05:32,545[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:05:33,124[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:05:33,126[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:05:33,130[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:05:34,521[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 22:06:47,384[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:09:09,842[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:09:09,850[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:09:09,852[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:09:10,299[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:09:10,302[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:09:10,307[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:09:13,622[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 22:09:58,628[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:11:50,936[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:11:50,949[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:11:50,951[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:11:51,360[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-15 22:11:51,362[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:11:51,366[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-15 22:11:54,408[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-15 22:11:54,653[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
