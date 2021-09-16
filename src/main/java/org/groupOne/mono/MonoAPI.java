@@ -1,4 +1,4 @@
-package org.groupOne;
+package org.groupOne.mono;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

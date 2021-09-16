@@ -1,4 +1,4 @@
-package org.groupOne;
+package org.groupOne.mono;
 
 import com.google.gson.annotations.SerializedName;
 
