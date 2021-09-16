@@ -19,13 +19,9 @@ public class Facade {
 //        this.monoAPI = monoAPI;
     }
 
-
-
-    //
     public void setPrivatAPI(PrivatApi privatAPI) {
         this.privatAPI = privatAPI;
     }
-
     public void setNbuAPI(NBU_API nbuAPI) {
         this.nbuAPI = nbuAPI;
     }

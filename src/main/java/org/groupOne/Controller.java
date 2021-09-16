@@ -25,6 +25,7 @@ public class Controller  extends TelegramLongPollingBot {
     static final Logger log = Logger.getLogger(Controller.class);
     private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
     private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+    private BankButton bankButton = new BankButton();
 
     public static void main(String[] args) {
         try {

@@ -12,9 +12,9 @@ public class BankResponse {
     private BigDecimal buyRate;
     private BigDecimal sellRate;
 
-    public BankResponse() {
+    /*public BankResponse() {
 
-    }
+    }*/
 
     public BankResponse(String bankName, String currency, BigDecimal buyRate, BigDecimal sellRate) {
         this.bankName = bankName;
