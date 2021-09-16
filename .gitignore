@@ -1,4 +1,6 @@
 .idea/
 target/
 *.json
-TelegramBot.iml
+*.iml
+*.xml
+src/main/java/org/groupOne/privat_api/PrivatRateArchive/
