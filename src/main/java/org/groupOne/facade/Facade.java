@@ -1,6 +1,7 @@
 package org.groupOne.facade;
 
 import org.groupOne.BankResponse;
+import org.groupOne.mono.MonoAPI;
 import org.groupOne.nbu_api.NBU_API;
 import org.groupOne.privat_api.PrivatApi;
 
@@ -11,12 +12,12 @@ public class Facade {
 
     private PrivatApi privatAPI;
     private NBU_API nbuAPI;
-//    private MonoAPI monoAPI;
+    private MonoAPI monoAPI;
 //
-    public Facade(PrivatApi privatAPI, NBU_API nbuAPI /*, MonoAPI monoAPI*/) {
+    public Facade(PrivatApi privatAPI, NBU_API nbuAPI , MonoAPI monoAPI) {
         this.privatAPI = privatAPI;
         this.nbuAPI = nbuAPI;
-//        this.monoAPI = monoAPI;
+        this.monoAPI = monoAPI;
     }
 //
     public void setPrivatAPI(PrivatApi privatAPI) {
@@ -26,19 +27,19 @@ public class Facade {
     public void setNbuAPI(NBU_API nbuAPI) {
         this.nbuAPI = nbuAPI;
     }
-//
-//    public void setMonoAPI(MonoAPI monoAPI) {
-//        this.monoAPI = monoAPI;
-//    }
-//
+
+    public void setMonoAPI(MonoAPI monoAPI) {
+        this.monoAPI = monoAPI;
+    }
+
     public List<BankResponse> getInfo(String bankName) throws IOException, InterruptedException {
         if(bankName.equals("Privat")){
             return privatAPI.getPrivatRates();
         } else if (bankName.equals("NBU")){
             return nbuAPI.getInfo();
-        } /*else if(bankName.equals("Mono")){
+        } else if(bankName.equals("Mono")){
             return monoAPI.getInfo();
-        }*/else {
+        }else {
             throw new RuntimeException("Unknown bank name");
         }
     }

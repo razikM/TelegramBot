@@ -3,6 +3,7 @@ package org.groupOne.mono;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+import org.groupOne.BankResponse;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,7 +31,7 @@ public class MonoAPI {
     public static List<BankResponse> getInfo() throws IOException, InterruptedException {
         getJsonFromMonoBank();
 
-        String json = new String(Files.readAllBytes(Paths.get("src/main/java/org/groupOne/MonoRateArchive/" + java.time.LocalDate.now() + " mono.json")));
+        String json = new String(Files.readAllBytes(Paths.get("src/main/java/org/groupOne/mono/MonoRateArchive/" + java.time.LocalDate.now() + " mono.json")));
         List<MonoBank> listFromBank = GSON.fromJson(json, new TypeToken<List<MonoBank>>() {
         }.getType());
 
@@ -60,7 +61,7 @@ public class MonoAPI {
     }
 
     private static void getJsonFromMonoBank() throws IOException, InterruptedException {
-        File file = new File("src/main/java/org/groupOne/MonoRateArchive/" + java.time.LocalDate.now() + " mono.json");
+        File file = new File("src/main/java/org/groupOne/mono/MonoRateArchive/" + java.time.LocalDate.now() + " mono.json");
         if (!file.exists()) {
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(URL_MONO))
@@ -68,7 +69,7 @@ public class MonoAPI {
                     .build();
 
             HttpResponse<Path> response = CLIENT.send(request, HttpResponse.BodyHandlers
-                    .ofFile(Path.of("src/main/java/org/groupOne/MonoRateArchive/" + java.time.LocalDate.now() + " mono.json")));
+                    .ofFile(Path.of("src/main/java/org/groupOne/mono/MonoRateArchive/" + java.time.LocalDate.now() + " mono.json")));
         }
     }
 }
