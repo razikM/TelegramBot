@@ -32,9 +32,9 @@ public enum ButtonName {
     PRECISION_TWO("2"),
     PRECISION_THREE("3"),
     PRECISION_FOUR("4"),
-    PRECISION_TWO_CHECKED("⭕ 2"), //🔘
-    PRECISION_THREE_CHECKED("⭕ 3"), //⭕
-    PRECISION_FOUR_CHECKED("⭕ 4"),
+    PRECISION_TWO_CHECKED("\uD83D\uDD18 2"), //🔘
+    PRECISION_THREE_CHECKED("\uD83D\uDD18 3"), //⭕
+    PRECISION_FOUR_CHECKED("\uD83D\uDD18 4"),
 //    PRECISION_TWO_CHECKED("✅ 2"), //⭕
 //    PRECISION_THREE_CHECKED("✅ 3"),
 //    PRECISION_FOUR_CHECKED("✅ 4"),
