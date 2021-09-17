@@ -3,7 +3,7 @@ package org.groupOne.Services;
 public class Settings {
     private boolean isCheckUSD;
     private boolean isCheckEUR;
-    private boolean isCheckRUR;
+    private boolean isCheckRUB;
     private boolean isCheckMonoBank;
     private boolean isCheckPrivatBank;
     private boolean isCheckNBU;
@@ -16,12 +16,12 @@ public class Settings {
         this.chatId = chatId;
         isCheckUSD = true;
         isCheckEUR = false;
-        isCheckRUR = false;
+        isCheckRUB = false;
         isCheckMonoBank = false;
-        isCheckPrivatBank = false;
-        isCheckNBU = true;
-        timeUpdate = 9;
-        isCheckDisableTimeUpdate = true;
+        isCheckPrivatBank = true;
+        isCheckNBU = false;
+//        timeUpdate = 9;
+//        isCheckDisableTimeUpdate = true;
         precision = 2;
     }
 
@@ -45,12 +45,12 @@ public class Settings {
         isCheckEUR = checkEUR;
     }
 
-    public boolean isCheckRUR() {
-        return isCheckRUR;
+    public boolean isCheckRUB() {
+        return isCheckRUB;
     }
 
-    public void setCheckRUR(boolean checkRUR) {
-        isCheckRUR = checkRUR;
+    public void setCheckRUB(boolean checkRUB) {
+        isCheckRUB = checkRUB;
     }
 
     public boolean isCheckMonoBank() {

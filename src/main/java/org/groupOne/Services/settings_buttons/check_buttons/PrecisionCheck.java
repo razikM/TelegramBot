@@ -1,17 +1,17 @@
-package org.groupOne.Services.settings_buttons;
+package org.groupOne.Services.settings_buttons.check_buttons;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.groupOne.ApplicationSettings;
 import org.groupOne.Services.Settings;
-import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import static org.groupOne.Services.button_enam.ButtonName.*;
 import static org.groupOne.Services.button_enam.ButtonData.*;
 
-public class PrecisionButton {
+public class PrecisionCheck {
 
   InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
   InlineKeyboardButton buttonPrecisionTwo = new InlineKeyboardButton();
@@ -21,40 +21,46 @@ public class PrecisionButton {
   List<InlineKeyboardButton> rowInlinePrecisionThree = new ArrayList<>();
   List<InlineKeyboardButton> rowInlinePrecisionFour = new ArrayList<>();
   List<List<InlineKeyboardButton>> rowsInlinePrecision = new ArrayList<>();
-  SendMessage message = new SendMessage();
+  EditMessageText new_message = new EditMessageText();
 
-  public SendMessage sendPrecisionInlineButtons(long chatId) {
+  public void clearPrecision (Settings settings) {
+    buttonPrecisionTwo.setText(PRECISION_TWO.getButtonName());
+    buttonPrecisionTwo.setCallbackData(PRECISION_TWO_DATA.getData());
 
-    List<Settings> listSettings = ApplicationSettings.settingsList.stream()
-        .filter(t -> t.getChatId().equals(chatId))
-        .collect(Collectors.toList());
+    buttonPrecisionThree.setText(PRECISION_THREE.getButtonName());
+    buttonPrecisionThree.setCallbackData(PRECISION_THREE_DATA.getData());
+
+    buttonPrecisionFour.setText(PRECISION_FOUR.getButtonName());
+    buttonPrecisionFour.setCallbackData(PRECISION_FOUR_DATA.getData());
+
+    settings.setPrecision(0);
+  }
+
+  public EditMessageText sendPrecisionInlineButtonsChecked(long chatId, String data, Integer messageId) {
+
+    List<Settings> listSettings = ApplicationSettings.settingsList.stream().filter(t -> t.getChatId().equals(chatId)).collect(
+        Collectors.toList());
     Settings settings;
 
-    if(listSettings.isEmpty()){
+    if (listSettings.isEmpty()) {
       settings = new Settings(chatId);
       ApplicationSettings.settingsList.add(settings);
     } else {
       settings = listSettings.get(0);
     }
 
-    if (settings.getPrecision() == Integer.parseInt(PRECISION_TWO.getButtonName())) {
+    clearPrecision(settings);
+
+    if (data.equals(PRECISION_TWO_DATA.getData())) {
       buttonPrecisionTwo.setText(PRECISION_TWO_CHECKED.getButtonName());
-    } else {
-      buttonPrecisionTwo.setText(PRECISION_TWO.getButtonName());
-    }
-    buttonPrecisionTwo.setCallbackData(PRECISION_TWO_DATA.getData());
-    if (settings.getPrecision() == Integer.parseInt(PRECISION_THREE.getButtonName())) {
+      settings.setPrecision(2);
+    } else if (data.equals(PRECISION_THREE_DATA.getData())) {
       buttonPrecisionThree.setText(PRECISION_THREE_CHECKED.getButtonName());
-    } else {
-      buttonPrecisionThree.setText(PRECISION_THREE.getButtonName());
-    }
-    buttonPrecisionThree.setCallbackData(PRECISION_THREE_DATA.getData());
-    if (settings.getPrecision() == Integer.parseInt(PRECISION_FOUR.getButtonName())) {
+      settings.setPrecision(3);
+    } else if (data.equals(PRECISION_FOUR_DATA.getData())) {
       buttonPrecisionFour.setText(PRECISION_FOUR_CHECKED.getButtonName());
-    } else {
-      buttonPrecisionFour.setText(PRECISION_FOUR.getButtonName());
+      settings.setPrecision(4);
     }
-    buttonPrecisionFour.setCallbackData(PRECISION_FOUR_DATA.getData());
 
     rowInlinePrecisionTwo.add(buttonPrecisionTwo);
     rowInlinePrecisionThree.add(buttonPrecisionThree);
@@ -63,13 +69,13 @@ public class PrecisionButton {
     rowsInlinePrecision.add(rowInlinePrecisionTwo);
     rowsInlinePrecision.add(rowInlinePrecisionThree);
     rowsInlinePrecision.add(rowInlinePrecisionFour);
-
     markupInline.setKeyboard(rowsInlinePrecision);
 
-    message.setChatId(String.valueOf(chatId));
-    message.setText("\uD83C\uDFAF Выберите количество знаков после запятой:");
-    message.setReplyMarkup(markupInline);
+    new_message.setChatId(String.valueOf(chatId));
+    new_message.setMessageId(messageId);
+    new_message.setText("\uD83C\uDFAF Выберите количество знаков после запятой:");
+    new_message.setReplyMarkup(markupInline);
 
-    return message;
+    return new_message;
   }
 }
