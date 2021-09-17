@@ -1340,3 +1340,42 @@ Caused by: java.io.EOFException: SSL peer shut down incorrectly
 2021-09-16 10:28:28,156[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
 2021-09-16 10:28:32,450[INFO ][elegram Executor][         org.groupOne.Controller] - update = callback_privat_bank
 2021-09-16 10:31:05,340[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:18:01,064[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:18:01,064[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:18:01,064[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:18:01,496[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:18:01,496[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:18:01,509[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:26:00,901[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:26:00,916[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:26:00,916[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:26:01,386[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:26:01,386[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:26:01,396[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:26:16,044[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:26:25,289[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-17 10:26:25,858[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:27:58,034[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:27:58,040[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:27:58,042[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:27:58,456[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:27:58,459[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:27:58,463[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:28:03,006[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-17 10:28:03,555[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:28:28,798[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:28:28,805[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:28:28,807[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:28:29,229[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:28:29,231[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:28:29,235[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:28:35,378[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-17 10:28:35,840[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:30:02,374[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:30:02,380[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:30:02,382[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:30:02,794[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 10:30:02,796[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:30:02,800[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 10:30:06,615[INFO ][elegram Executor][         org.groupOne.Controller] - update = get_info
+2021-09-17 10:30:07,167[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No

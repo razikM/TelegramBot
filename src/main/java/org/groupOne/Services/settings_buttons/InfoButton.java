@@ -18,7 +18,7 @@ public class InfoButton {
   private final List<InlineKeyboardButton> keyboardButtonsRow1 = new ArrayList<>();
   private final List<InlineKeyboardButton> keyboardButtonsRow2 = new ArrayList<>();
   private final List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
-  private GetMessageInfo getdMessage = new GetMessageInfo();
+  private GetMessageInfo getMessage = new GetMessageInfo();
   private Settings settings = new Settings(231L);
 
 
@@ -56,7 +56,7 @@ public class InfoButton {
     SendMessage message = new SendMessage();
     message.setChatId(String.valueOf(chatId));
 
-    message.setText(getdMessage.getMessageInfo(NBU,settings));
+    message.setText(getMessage.getMessageInfo(MONO_BANK,settings));
     message.setReplyMarkup(inlineKeyboardMarkup);
     return message;
   }

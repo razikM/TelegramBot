@@ -4,6 +4,7 @@ package org.groupOne.Services;
 import org.groupOne.BankResponse;
 import org.groupOne.Services.button_enam.ButtonName;
 import org.groupOne.facade.Facade;
+import org.groupOne.mono.MonoAPI;
 import org.groupOne.nbu_api.NBU_API;
 import org.groupOne.privat_api.PrivatApi;
 
@@ -16,7 +17,7 @@ import static org.groupOne.Services.button_enam.ButtonName.NBU;
 
 public class GetMessageInfo {
     private List<BankResponse> responses;
-    private Facade facade = new Facade(new PrivatApi(),new NBU_API());
+    private Facade facade = new Facade(new PrivatApi(),new NBU_API(),new MonoAPI());
     private String[] precisionArray = {"#0","#0.0","#0.00","#0.000","#0.0000"};
 
     public String getMessageInfo(ButtonName bank, Settings settings) {
@@ -26,7 +27,7 @@ public class GetMessageInfo {
         precision = precisionArray[settings.getPrecision()];
 
         try {
-            responses = facade.getInfo("NBU");
+            responses = facade.getInfo(bank);
         } catch (Exception e) {
             e.printStackTrace();
         }

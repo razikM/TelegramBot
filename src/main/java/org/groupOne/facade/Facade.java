@@ -1,9 +1,11 @@
 package org.groupOne.facade;
 
 import org.groupOne.BankResponse;
+import org.groupOne.Services.button_enam.ButtonName;
 import org.groupOne.mono.MonoAPI;
 import org.groupOne.nbu_api.NBU_API;
 import org.groupOne.privat_api.PrivatApi;
+import static org.groupOne.Services.button_enam.ButtonName.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -31,12 +33,12 @@ public class Facade {
         this.monoAPI = monoAPI;
     }
 
-    public List<BankResponse> getInfo(String bankName) throws IOException, InterruptedException {
-        if(bankName.equals("Privat")){
+    public List<BankResponse> getInfo(ButtonName bankName) throws IOException, InterruptedException {
+        if(bankName.equals(PRIVAT_BANK)){
             return privatAPI.getPrivatRates();
-        } else if (bankName.equals("NBU")){
+        } else if (bankName.equals(NBU)){
             return nbuAPI.getInfo();
-        } else if(bankName.equals("Mono")){
+        } else if(bankName.equals(MONO_BANK)){
             return monoAPI.getInfo();
         }else {
             throw new RuntimeException("Unknown bank name");

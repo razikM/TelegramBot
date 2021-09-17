@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class PrivatApi implements Serializable {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        BankResponse response = new BankResponse();
+       // BankResponse response = new BankResponse();
         PrivatApi api = new PrivatApi();
         api.getPrivatRates();
     }
