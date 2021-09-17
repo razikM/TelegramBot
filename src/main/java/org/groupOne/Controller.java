@@ -30,8 +30,8 @@ public class Controller  extends TelegramLongPollingBot {
 
     static final Logger log = Logger.getLogger(Controller.class);
     private static final List<Settings> settingsList = new ArrayList<Settings>();
-    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
-    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+    private static final String BOT_USER_NAME = "JRTB_java_bot";
+    private static final String TOKEN = "1981028194:AAEi89jQSuU9OK7v9NfJ03i3HBsMFNmtuog";
     private BankButton bankButton = new BankButton();
 
     public static void main(String[] args) {
@@ -171,13 +171,13 @@ public class Controller  extends TelegramLongPollingBot {
             {
                 switch (data) {
                     case "callback_nbu_bank":
-                        settings.isCheckNBU();
+                       // settings.setCheckNBU(true);
                         break;
                     case "callback_privat_bank":
-                        settings.isCheckPrivatBank();
+                      //  settings.setCheckPrivatBank(true);
                         break;
                     case "callback_mono_bank":
-                        settings.isCheckMonoBank();
+                      //  settings.setCheckMonoBank(true);
                         break;
                     default:
                         break;

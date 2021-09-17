@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.groupOne.ApplicationSettings;
+import org.groupOne.Services.GetMessageInfo;
 import org.groupOne.Services.Settings;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
@@ -20,6 +21,7 @@ public class InfoButton {
   List<InlineKeyboardButton> keyboardButtonsRow2 = new ArrayList<>();
   List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
   SendMessage message = new SendMessage();
+  GetMessageInfo getMessageInfo = new GetMessageInfo();
 
   public SendMessage sendInfoMenu(long chatId) {
 
@@ -47,7 +49,14 @@ public class InfoButton {
     inlineKeyboardMarkup.setKeyboard(rowList);
 
     message.setChatId(String.valueOf(chatId));
-    message.setText("Курс в ПриватБанке: USD/UAH\nПокупка: 27.55\nПродажа: 27.95");
+    if(settings.isCheckNBU()){
+      message.setText(getMessageInfo.getMessageInfo(NBU,settings));
+    }else if(settings.isCheckMonoBank()){
+      message.setText(getMessageInfo.getMessageInfo(MONO_BANK,settings));
+    }else if(settings.isCheckPrivatBank()){
+      message.setText(getMessageInfo.getMessageInfo(PRIVAT_BANK,settings));
+    }
+
     message.setReplyMarkup(inlineKeyboardMarkup);
     return message;
   }

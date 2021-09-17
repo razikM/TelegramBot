@@ -46,7 +46,7 @@ public class GetMessageInfo {
             bankResponseOptional = responses.stream().filter(x -> (x.getCurrency().equals("EUR"))).findFirst();
             message += createStringMessage(bankResponseOptional, bank,precision);
         }
-        if (settings.isCheckRUR()) {
+        if (settings.isCheckRUB()) {
             bankResponseOptional = responses.stream().filter(x -> (x.getCurrency().equals("RUR")) || x.getCurrency().equals("RUB")).findFirst();
             message += createStringMessage(bankResponseOptional, bank,precision);
         }

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.apache.log4j.Logger;
+import org.groupOne.ApplicationSettings;
 import org.groupOne.Services.Settings;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
@@ -42,7 +43,7 @@ public class BankCheck {
   public EditMessageText sendBankInlineButtonsChecked(long chatId, String data, Integer messageId) {
 
     String SEND_TEXT_CHECK_BANK = "\uD83C\uDFE6  Выберите банк:";
-    List<Settings> listSettings = settingsList.stream().filter(t -> t.getChatId().equals(chatId)).collect(
+    List<Settings> listSettings = ApplicationSettings.settingsList.stream().filter(t -> t.getChatId().equals(chatId)).collect(
         Collectors.toList());
     Settings settings;
 
