@@ -1,6 +1,7 @@
 package org.groupOne.Services.button_enam;
 
 public enum ButtonName {
+
     START("/start"),
     HELP("/help"),
     STOP("/stop"),
@@ -12,25 +13,31 @@ public enum ButtonName {
     MONO_BANK("МоноБанк"),
     PRIVAT_BANK("ПриватБанк"),
     NBU("НБУ"),
-    MONO_BANK_CHECKED("✅МоноБанк"),
-    PRIVAT_BANK_CHECKED("✅ПриватБанк"),
-    NBU_CHECKED("✅НБУ"),
+//    MONO_BANK_CHECKED("✅ МоноБанк"),
+//    PRIVAT_BANK_CHECKED("✅ ПриватБанк"),
+//    NBU_CHECKED("✅ НБУ"),
+    MONO_BANK_CHECKED("\uD83D\uDD18 МоноБанк"),
+    PRIVAT_BANK_CHECKED("\uD83D\uDD18 ПриватБанк"),
+    NBU_CHECKED("\uD83D\uDD18 НБУ"),
 
     CURRENCY("\u200B\uD83D\uDCB4\u200B\uD83D\uDCB1\u200B\uD83D\uDCB5\u200B Валюта"),
     USD("USD"),
     EUR("EUR"),
-    RUR("RUR"),
-    USD_CHECKED("✅USD"),
-    EUR_CHECKED("✅EUR"),
-    RUR_CHECKED("✅RUR"),
+    RUB("RUB"),
+    USD_CHECKED("✅ USD"),
+    EUR_CHECKED("✅ EUR"),
+    RUB_CHECKED("✅ RUB"),
 
     PRECISION("\uD83C\uDFAF Кол-во знаков после запятой"),
     PRECISION_TWO("2"),
     PRECISION_THREE("3"),
     PRECISION_FOUR("4"),
-    PRECISION_TWO_CHECKED("✅2"),
-    PRECISION_THREE_CHECKED("✅3"),
-    PRECISION_FOUR_CHECKED("✅4"),
+    PRECISION_TWO_CHECKED("\uD83D\uDD18 2"), //🔘
+    PRECISION_THREE_CHECKED("\uD83D\uDD18 3"), //⭕
+    PRECISION_FOUR_CHECKED("\uD83D\uDD18 4"),
+//    PRECISION_TWO_CHECKED("✅ 2"), //⭕
+//    PRECISION_THREE_CHECKED("✅ 3"),
+//    PRECISION_FOUR_CHECKED("✅ 4"),
 
     TIME_UPDATE("\uD83D\uDD57 Время оповещений"),
     TIME_UPDATE_NINE("9"),
@@ -44,7 +51,7 @@ public enum ButtonName {
     TIME_UPDATE_SEVENTEEN("17"),
     TIME_UPDATE_EIGHTEEN("18"),
     TIME_UPDATE_DISABLE("Выключить уведомления");
-    private String buttonName;
+    private final String buttonName;
 
     ButtonName(String buttonName) {
         this.buttonName = buttonName;

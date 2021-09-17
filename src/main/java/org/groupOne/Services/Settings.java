@@ -1,88 +1,28 @@
 package org.groupOne.Services;
 
 public class Settings {
-
     private boolean isCheckUSD;
     private boolean isCheckEUR;
-    private boolean isCheckRUR;
+    private boolean isCheckRUB;
     private boolean isCheckMonoBank;
     private boolean isCheckPrivatBank;
     private boolean isCheckNBU;
-    private Integer TimeUpdate;
+    private Integer timeUpdate;
     private boolean isCheckDisableTimeUpdate;
     private Integer precision;
     private Long chatId;
-    private Float buyUSD;
-    private Float buyEUR;
-    private Float buyRUR;
-    private  Float saleUSD;
-    private  Float saleEUR;
-    private  Float saleRUR;
-
 
     public Settings(Long chatId) {
         this.chatId = chatId;
         isCheckUSD = true;
-        isCheckEUR = true;
-        isCheckRUR = true;
+        isCheckEUR = false;
+        isCheckRUB = false;
         isCheckMonoBank = false;
-        isCheckPrivatBank = false;
-        isCheckNBU = true;
-        TimeUpdate = 9;
-        isCheckDisableTimeUpdate = true;
-        precision = 4;
-    }
-
-    public void setChatId(Long chatId) {
-        this.chatId = chatId;
-    }
-
-    public Float getBuyUSD() {
-        return buyUSD;
-    }
-
-    public void setBuyUSD(Float buyUSD) {
-        this.buyUSD = buyUSD;
-    }
-
-    public Float getBuyEUR() {
-        return buyEUR;
-    }
-
-    public void setBuyEUR(Float buyEUR) {
-        this.buyEUR = buyEUR;
-    }
-
-    public Float getBuyRUR() {
-        return buyRUR;
-    }
-
-    public void setBuyRUR(Float buyRUR) {
-        this.buyRUR = buyRUR;
-    }
-
-    public Float getSaleUSD() {
-        return saleUSD;
-    }
-
-    public void setSaleUSD(Float saleUSD) {
-        this.saleUSD = saleUSD;
-    }
-
-    public Float getSaleEUR() {
-        return saleEUR;
-    }
-
-    public void setSaleEUR(Float saleEUR) {
-        this.saleEUR = saleEUR;
-    }
-
-    public Float getSaleRUR() {
-        return saleRUR;
-    }
-
-    public void setSaleRUR(Float saleRUR) {
-        this.saleRUR = saleRUR;
+        isCheckPrivatBank = true;
+        isCheckNBU = false;
+//        timeUpdate = 9;
+//        isCheckDisableTimeUpdate = true;
+        precision = 2;
     }
 
     public Long getChatId() {
@@ -105,12 +45,12 @@ public class Settings {
         isCheckEUR = checkEUR;
     }
 
-    public boolean isCheckRUR() {
-        return isCheckRUR;
+    public boolean isCheckRUB() {
+        return isCheckRUB;
     }
 
-    public void setCheckRUR(boolean checkRUR) {
-        isCheckRUR = checkRUR;
+    public void setCheckRUB(boolean checkRUB) {
+        isCheckRUB = checkRUB;
     }
 
     public boolean isCheckMonoBank() {
@@ -138,11 +78,11 @@ public class Settings {
     }
 
     public Integer getTimeUpdate() {
-        return TimeUpdate;
+        return timeUpdate;
     }
 
     public void setTimeUpdate(Integer timeUpdate) {
-        TimeUpdate = timeUpdate;
+        this.timeUpdate = timeUpdate;
     }
 
     public boolean isCheckDisableTimeUpdate() {

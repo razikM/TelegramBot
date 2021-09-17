@@ -1,6 +1,10 @@
+out/
 .idea/
 target/
-*.json
+.idea_modules/
 *.iml
+*.ipr
+*.iws
+*.json
 *.xml
 src/main/java/org/groupOne/privat_api/PrivatRateArchive/

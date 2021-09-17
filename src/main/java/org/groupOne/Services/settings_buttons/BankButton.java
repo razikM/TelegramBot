@@ -2,108 +2,79 @@ package org.groupOne.Services.settings_buttons;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.stream.Collectors;
+import org.apache.log4j.Logger;
+import org.groupOne.ApplicationSettings;
 import org.groupOne.Services.Settings;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
-
 import static org.groupOne.Services.button_enam.ButtonName.*;
 import static org.groupOne.Services.button_enam.ButtonData.*;
 
 public class BankButton {
-    private InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
-    private InlineKeyboardButton buttonBankNbu = new InlineKeyboardButton();
-    private InlineKeyboardButton buttonBankPrivat = new InlineKeyboardButton();
-    private InlineKeyboardButton buttonBankMono = new InlineKeyboardButton();
-    private List<InlineKeyboardButton> rowInlineBankNbu = new ArrayList<>();
-    private List<InlineKeyboardButton> rowInlineBankPrivat = new ArrayList<>();
-    private List<InlineKeyboardButton> rowInlineBankMono = new ArrayList<>();
-    private List<List<InlineKeyboardButton>> rowsInlineBank = new ArrayList<>();
-    private final static String CHECK = "✅ ";
+
+  static final Logger log = Logger.getLogger(BankButton.class);
+  InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
+  InlineKeyboardButton buttonBankNbu = new InlineKeyboardButton();
+  InlineKeyboardButton buttonBankPrivat = new InlineKeyboardButton();
+  InlineKeyboardButton buttonBankMono = new InlineKeyboardButton();
+  List<InlineKeyboardButton> rowInlineBankNbu  = new ArrayList<>();
+  List<InlineKeyboardButton> rowInlineBankPrivat = new ArrayList<>();
+  List<InlineKeyboardButton> rowInlineBankMono = new ArrayList<>();
+  List<List<InlineKeyboardButton>> rowsInlineBank = new ArrayList<>();
+  SendMessage message = new SendMessage();
+
+  public SendMessage sendBankInlineButtons(long chatId) {
+
+    List<Settings> listSettings = ApplicationSettings.settingsList.stream()
+        .filter(t -> t.getChatId().equals(chatId))
+        .collect(Collectors.toList());
     Settings settings;
 
-    public BankButton() {
-        rowInlineBankNbu.add(buttonBankNbu);
-        rowInlineBankPrivat.add(buttonBankPrivat);
-        rowInlineBankMono.add(buttonBankMono);
+    if (listSettings.isEmpty()) {
+      settings = new Settings(chatId);
+      ApplicationSettings.settingsList.add(settings);
+    } else {
+      settings = listSettings.get(0);
+    }
 
-        rowsInlineBank.add(rowInlineBankNbu);
-        rowsInlineBank.add(rowInlineBankPrivat);
-        rowsInlineBank.add(rowInlineBankMono);
-        buttonBankNbu.setText(NBU.getButtonName());
-        buttonBankPrivat.setText(PRIVAT_BANK.getButtonName());
-        buttonBankMono.setText(MONO_BANK.getButtonName());
-
-        buttonBankNbu.setCallbackData(NBU_DATA.getData());
-        buttonBankPrivat.setCallbackData(PRIVAT_BANK_DATA.getData());
+    if (settings.isCheckNBU()) {
+      buttonBankNbu.setText(NBU_CHECKED.getButtonName());
+      buttonBankNbu.setCallbackData(NBU_DATA.getData());
+    } else {
+      buttonBankNbu.setText(NBU.getButtonName());
+      buttonBankNbu.setCallbackData(NBU_DATA.getData());
+    }
+    if (settings.isCheckPrivatBank()) {
+      buttonBankPrivat.setText(PRIVAT_BANK_CHECKED.getButtonName());
+      buttonBankPrivat.setCallbackData(PRIVAT_BANK_DATA.getData());
+    } else {
+      buttonBankPrivat.setText(PRIVAT_BANK.getButtonName());
+      buttonBankPrivat.setCallbackData(PRIVAT_BANK_DATA.getData());
+    }
+    if (settings.isCheckMonoBank()) {
+        buttonBankMono.setText(MONO_BANK_CHECKED.getButtonName());
         buttonBankMono.setCallbackData(MONO_BANK_DATA.getData());
-        settings = new Settings(123L);
+    } else {
+      buttonBankMono.setText(MONO_BANK.getButtonName());
+      buttonBankMono.setCallbackData(MONO_BANK_DATA.getData());
     }
 
-    public SendMessage sendBankInlineButtons(Long chatId) {
+    rowInlineBankNbu.add(buttonBankNbu);
+    rowInlineBankPrivat.add(buttonBankPrivat);
+    rowInlineBankMono.add(buttonBankMono);
 
+    rowsInlineBank.add(rowInlineBankNbu);
+    rowsInlineBank.add(rowInlineBankPrivat);
+    rowsInlineBank.add(rowInlineBankMono);
 
-        if (settings.isCheckNBU()) {
-            buttonBankNbu.setText(CHECK + NBU.getButtonName());
-        }
-        if (settings.isCheckPrivatBank()) {
-            buttonBankPrivat.setText(CHECK + PRIVAT_BANK.getButtonName());
+    markupInline.setKeyboard(rowsInlineBank);
 
-        }
-        if (settings.isCheckMonoBank()) {
-            buttonBankMono.setText(CHECK + MONO_BANK.getButtonName());
-
-        }
-        buttonBankNbu.setCallbackData(NBU_DATA.getData());
-        buttonBankPrivat.setCallbackData(PRIVAT_BANK_DATA.getData());
-        buttonBankMono.setCallbackData(MONO_BANK_DATA.getData());
-
-        markupInline.setKeyboard(rowsInlineBank);
-
-        SendMessage message = new SendMessage();
-        message.setChatId(String.valueOf(chatId));
-        message.setText("\uD83C\uDFE6  Выберите банк:");
-        message.setReplyMarkup(markupInline);
-
-        return message;
-    }
-
-    public EditMessageText ediMessage(Long chatId,Integer messageId,String data) {
-      if(data.equals(NBU_DATA.getData())) {
-          if (settings.isCheckNBU()) {
-              buttonBankNbu.setText(NBU.getButtonName());
-              settings.setCheckNBU(false);
-          } else {
-              buttonBankNbu.setText(CHECK + NBU.getButtonName());
-              settings.setCheckNBU(true);
-          }
-      }
-      if(data.equals(PRIVAT_BANK_DATA.getData())) {
-          if (settings.isCheckPrivatBank()) {
-              buttonBankPrivat.setText(PRIVAT_BANK.getButtonName());
-              settings.setCheckPrivatBank(false);
-          } else {
-              buttonBankPrivat.setText(CHECK + PRIVAT_BANK.getButtonName());
-              settings.setCheckPrivatBank(true);
-          }
-      }
-      if(data.equals(MONO_BANK_DATA.getData())) {
-          if (settings.isCheckMonoBank()) {
-              buttonBankMono.setText(MONO_BANK.getButtonName());
-              settings.setCheckMonoBank(false);
-          } else {
-              buttonBankMono.setText(CHECK + MONO_BANK.getButtonName());
-              settings.setCheckMonoBank(true);
-          }
-      }
-        markupInline.setKeyboard(rowsInlineBank);
-        EditMessageText edit = new EditMessageText();
-        edit.setChatId(chatId.toString());
-        edit.setMessageId(messageId);
-        edit.setText("\uD83C\uDFE6  Выберите банк:");
-        edit.setReplyMarkup(markupInline);
-        return edit;
-    }
+    message.setChatId(String.valueOf(chatId));
+    message.setText("\uD83C\uDFE6  Выберите банк:");
+    message.setReplyMarkup(markupInline);
+    log.info("Bunk_button_message = " + message);
+    return message;
+  }
 }
