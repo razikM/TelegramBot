@@ -2662,3 +2662,951 @@ Error getting updates: [409] Conflict: terminated by other getUpdates request; m
 	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:13,474[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:39:13,484[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 14:39:13,486[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:39:14,226[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:39:14,230[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 14:39:14,236[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 14:39:18,228[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:22,367[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:26,497[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:30,632[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:31,572[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = get_settings
+2021-09-17 14:39:31,572[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1193
+2021-09-17 14:39:31,575[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:39:34,763[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:35,686[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision
+2021-09-17 14:39:35,686[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1194
+2021-09-17 14:39:35,692[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:39:38,908[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:43,044[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:47,175[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:51,344[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:55,471[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:39:59,604[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:03,739[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:07,863[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:11,997[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:16,128[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:20,404[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:24,554[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:28,827[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:32,948[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:37,096[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:40:41,233[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:41:43,055[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:41:43,066[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 14:41:43,068[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:41:43,767[INFO ][main            ][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:41:43,770[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 14:41:43,775[INFO ][main            ][         org.groupOne.Controller] - GO_IT_CurrencyInfo_bot
+2021-09-17 14:41:47,390[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:41:51,163[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:41:55,092[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:41:58,867[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:02,794[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:06,596[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:10,485[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:11,381[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_nbu_bank
+2021-09-17 14:42:11,382[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1205
+2021-09-17 14:42:11,383[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_nbu_bank
+2021-09-17 14:42:11,384[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1205
+2021-09-17 14:42:11,388[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:11,397[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1205, inlineMessageId=null, text=🏦  Выберите банк:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=🔘 НБУ, url=null, callbackData=callback_nbu_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=ПриватБанк, url=null, callbackData=callback_privat_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=МоноБанк, url=null, callbackData=callback_mono_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:11,398[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:11,608[ERROR][elegram Executor][         org.groupOne.Controller] - Error editing message text: [400] Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-09-17 14:42:12,895[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_privat_bank
+2021-09-17 14:42:12,896[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1212
+2021-09-17 14:42:12,896[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_privat_bank
+2021-09-17 14:42:12,896[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1212
+2021-09-17 14:42:12,896[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:12,896[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=909890084, messageId=1212, inlineMessageId=null, text=🏦  Выберите банк:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=НБУ, url=null, callbackData=callback_nbu_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=🔘 ПриватБанк, url=null, callbackData=callback_privat_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=МоноБанк, url=null, callbackData=callback_mono_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:12,896[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:14,633[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:15,785[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_nbu_bank
+2021-09-17 14:42:15,785[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1212
+2021-09-17 14:42:15,785[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_nbu_bank
+2021-09-17 14:42:15,786[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1212
+2021-09-17 14:42:15,786[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:15,786[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=909890084, messageId=1212, inlineMessageId=null, text=🏦  Выберите банк:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=🔘 НБУ, url=null, callbackData=callback_nbu_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=ПриватБанк, url=null, callbackData=callback_privat_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=МоноБанк, url=null, callbackData=callback_mono_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:15,786[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:15,958[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_privat_bank
+2021-09-17 14:42:15,959[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1205
+2021-09-17 14:42:15,959[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_privat_bank
+2021-09-17 14:42:15,959[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1205
+2021-09-17 14:42:15,959[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:15,960[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1205, inlineMessageId=null, text=🏦  Выберите банк:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=НБУ, url=null, callbackData=callback_nbu_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=🔘 ПриватБанк, url=null, callbackData=callback_privat_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=МоноБанк, url=null, callbackData=callback_mono_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:15,960[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:16,830[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_mono_bank
+2021-09-17 14:42:16,831[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1205
+2021-09-17 14:42:16,831[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_mono_bank
+2021-09-17 14:42:16,832[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1205
+2021-09-17 14:42:16,832[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:16,833[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1205, inlineMessageId=null, text=🏦  Выберите банк:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=НБУ, url=null, callbackData=callback_nbu_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=ПриватБанк, url=null, callbackData=callback_privat_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=🔘 МоноБанк, url=null, callbackData=callback_mono_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:16,835[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:17,305[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_privat_bank
+2021-09-17 14:42:17,306[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1212
+2021-09-17 14:42:17,310[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_privat_bank
+2021-09-17 14:42:17,310[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1212
+2021-09-17 14:42:17,310[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:17,312[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=909890084, messageId=1212, inlineMessageId=null, text=🏦  Выберите банк:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=НБУ, url=null, callbackData=callback_nbu_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=🔘 ПриватБанк, url=null, callbackData=callback_privat_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=МоноБанк, url=null, callbackData=callback_mono_bank, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:17,314[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:18,747[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:19,306[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:19,306[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1211
+2021-09-17 14:42:19,306[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:19,307[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1211
+2021-09-17 14:42:19,307[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:19,310[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=909890084, messageId=1211, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:19,310[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:22,600[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:23,733[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:23,733[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:23,734[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:23,734[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:23,734[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:23,735[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:23,735[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:25,123[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:25,123[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:25,124[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:25,124[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:25,125[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:25,126[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:25,126[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:26,081[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_EUR
+2021-09-17 14:42:26,082[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:26,082[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_EUR
+2021-09-17 14:42:26,082[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:26,082[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:26,083[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:26,084[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:26,565[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:27,407[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:27,407[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:27,407[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:27,408[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:27,408[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:27,408[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:27,409[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:28,698[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:28,699[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:28,699[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:28,700[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:28,700[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:28,701[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:28,702[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:29,786[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:29,788[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:29,788[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:29,789[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:29,789[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:29,790[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:29,790[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:30,299[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:33,375[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_EUR
+2021-09-17 14:42:33,375[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:33,375[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_EUR
+2021-09-17 14:42:33,375[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:33,375[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:33,376[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:33,377[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:34,260[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:34,925[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:34,926[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:34,926[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:34,927[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:34,928[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:34,929[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:34,930[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:35,829[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:35,829[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:35,829[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:35,830[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:35,830[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:35,832[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:35,833[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:36,715[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_EUR
+2021-09-17 14:42:36,715[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:36,716[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_EUR
+2021-09-17 14:42:36,717[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:36,718[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:36,718[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:36,719[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:37,023[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision
+2021-09-17 14:42:37,023[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1210
+2021-09-17 14:42:37,026[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:37,788[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:37,790[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:37,790[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:37,791[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:37,791[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:37,791[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:37,792[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:38,068[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:38,624[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:38,624[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:38,624[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:38,624[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:38,624[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:38,624[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:38,625[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:39,573[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:39,573[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:39,573[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:39,573[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:39,574[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:39,575[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:39,575[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:39,652[ERROR][elegram Executor][         org.groupOne.Controller] - Error editing message text: [400] Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-09-17 14:42:39,652[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_four
+2021-09-17 14:42:39,652[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1214
+2021-09-17 14:42:39,652[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_four
+2021-09-17 14:42:39,652[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1214
+2021-09-17 14:42:39,652[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:39,654[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=909890084, messageId=1214, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:39,654[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:40,620[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:42:40,620[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1214
+2021-09-17 14:42:40,620[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:42:40,620[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1214
+2021-09-17 14:42:40,620[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 4
+2021-09-17 14:42:40,621[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=909890084, messageId=1214, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:40,621[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:41,778[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_two
+2021-09-17 14:42:41,779[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1214
+2021-09-17 14:42:41,779[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_two
+2021-09-17 14:42:41,779[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1214
+2021-09-17 14:42:41,779[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:42:41,779[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=909890084, messageId=1214, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=⭕ 2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:41,779[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:42,104[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:45,119[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:45,120[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:45,120[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:45,121[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:45,121[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:45,122[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:45,123[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:45,827[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:46,409[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:46,409[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:46,410[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:46,410[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:46,410[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:46,412[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:46,412[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:47,530[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:47,531[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:47,531[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:47,531[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:47,532[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:47,532[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:47,533[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:48,633[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_EUR
+2021-09-17 14:42:48,633[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:48,633[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_EUR
+2021-09-17 14:42:48,633[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:48,634[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:48,634[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:48,635[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:49,621[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:49,622[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:49,622[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:49,622[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:49,623[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:49,624[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:49,624[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:49,795[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:50,413[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:42:50,414[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:50,414[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:42:50,414[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:50,414[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:50,415[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:50,415[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:51,485[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_EUR
+2021-09-17 14:42:51,486[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:51,486[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_EUR
+2021-09-17 14:42:51,486[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:51,487[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:51,487[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:51,488[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:51,921[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = get_settings
+2021-09-17 14:42:51,921[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1208
+2021-09-17 14:42:51,922[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:52,278[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:42:52,279[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:52,279[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:42:52,279[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:52,280[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:52,280[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:52,280[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:52,972[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_EUR
+2021-09-17 14:42:52,972[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:42:52,972[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_EUR
+2021-09-17 14:42:52,972[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:42:52,972[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:42:52,972[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:42:52,972[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:42:53,619[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:42:57,482[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:01,523[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:02,261[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = get_info
+2021-09-17 14:43:02,261[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1208
+2021-09-17 14:43:02,263[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:05,287[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:06,458[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:43:06,459[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:43:06,459[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:43:06,460[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:43:06,461[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:06,462[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:06,463[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:07,521[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:43:07,522[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:43:07,523[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:43:07,523[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:43:07,523[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:07,524[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:07,525[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:08,175[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_EUR
+2021-09-17 14:43:08,176[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:43:08,177[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_EUR
+2021-09-17 14:43:08,177[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:43:08,178[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:08,178[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:08,179[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:08,807[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_RUB
+2021-09-17 14:43:08,807[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:43:08,807[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_RUB
+2021-09-17 14:43:08,808[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:43:08,808[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:08,809[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=✅ USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:08,809[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:09,284[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:10,250[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = get_info
+2021-09-17 14:43:10,252[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1209
+2021-09-17 14:43:10,253[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:12,980[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:14,096[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:43:14,096[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:14,096[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:43:14,096[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:14,097[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:14,098[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:14,098[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:15,094[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_four
+2021-09-17 14:43:15,095[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:15,095[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_four
+2021-09-17 14:43:15,095[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:15,095[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:43:15,096[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:15,096[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:16,239[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_two
+2021-09-17 14:43:16,240[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:16,240[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_two
+2021-09-17 14:43:16,240[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:16,240[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 4
+2021-09-17 14:43:16,240[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=⭕ 2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:16,240[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:16,964[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:43:16,965[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:16,965[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:43:16,965[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:16,966[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:16,968[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:16,969[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:17,056[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:17,620[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_four
+2021-09-17 14:43:17,621[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:17,621[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_four
+2021-09-17 14:43:17,621[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:17,621[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:43:17,622[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:17,622[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:17,729[ERROR][elegram Executor][         org.groupOne.Controller] - Error editing message text: [400] Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-09-17 14:43:20,739[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:21,461[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:43:21,461[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:21,462[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:43:21,462[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:21,463[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 4
+2021-09-17 14:43:21,463[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:21,464[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:22,864[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_two
+2021-09-17 14:43:22,864[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:22,865[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_two
+2021-09-17 14:43:22,865[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:22,865[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:43:22,866[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=⭕ 2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:22,867[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:24,356[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:43:24,356[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:24,358[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:43:24,358[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:24,358[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:24,359[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:24,359[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:24,834[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:28,445[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:32,037[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:36,268[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:37,107[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_two
+2021-09-17 14:43:37,108[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:37,108[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_two
+2021-09-17 14:43:37,109[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:37,109[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:43:37,110[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=⭕ 2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:37,110[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:38,312[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_four
+2021-09-17 14:43:38,313[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:38,313[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_four
+2021-09-17 14:43:38,314[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:38,314[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:38,315[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:38,315[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:39,402[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:43:39,402[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:39,402[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:43:39,403[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:39,403[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 4
+2021-09-17 14:43:39,403[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:39,403[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:40,250[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_two
+2021-09-17 14:43:40,250[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:40,251[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_two
+2021-09-17 14:43:40,251[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:40,252[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:43:40,252[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=⭕ 2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:40,253[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:40,309[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:40,999[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_four
+2021-09-17 14:43:40,999[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:40,999[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_four
+2021-09-17 14:43:41,000[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:41,000[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:41,001[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:41,001[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:44,074[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:45,369[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:43:45,369[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:45,370[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:43:45,370[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:45,370[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 4
+2021-09-17 14:43:45,370[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:45,370[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:46,131[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_two
+2021-09-17 14:43:46,132[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:46,132[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_two
+2021-09-17 14:43:46,132[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:46,132[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:43:46,132[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=⭕ 2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:46,133[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:47,556[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:43:47,556[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:47,557[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:43:47,557[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:47,557[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 2
+2021-09-17 14:43:47,557[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:47,557[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:48,057[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:48,617[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_four
+2021-09-17 14:43:48,618[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1204
+2021-09-17 14:43:48,618[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_four
+2021-09-17 14:43:48,618[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1204
+2021-09-17 14:43:48,618[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 3
+2021-09-17 14:43:48,618[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1204, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:48,619[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:51,694[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:55,295[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:43:56,300[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_USD
+2021-09-17 14:43:56,300[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1213
+2021-09-17 14:43:56,300[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_USD
+2021-09-17 14:43:56,300[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1213
+2021-09-17 14:43:56,301[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 4
+2021-09-17 14:43:56,301[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1213, inlineMessageId=null, text=​💴​💱​💵​ Выберите валюту: , parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=USD, url=null, callbackData=callback_USD, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ EUR, url=null, callbackData=callback_EUR, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=✅ RUB, url=null, callbackData=callback_RUB, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:43:56,301[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:43:59,399[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:03,019[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:07,138[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:11,351[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:15,034[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:18,675[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:22,832[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:26,458[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:27,132[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = callback_precision_three
+2021-09-17 14:44:27,132[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1222
+2021-09-17 14:44:27,132[INFO ][elegram Executor][         org.groupOne.Controller] - update2 = callback_precision_three
+2021-09-17 14:44:27,133[INFO ][elegram Executor][         org.groupOne.Controller] - messageID2 = 1222
+2021-09-17 14:44:27,134[INFO ][elegram Executor][         org.groupOne.Controller] - precision: 4
+2021-09-17 14:44:27,134[INFO ][elegram Executor][         org.groupOne.Controller] - editMessageText = EditMessageText(chatId=1295919850, messageId=1222, inlineMessageId=null, text=🎯 Выберите количество знаков после запятой:, parseMode=null, disableWebPagePreview=null, replyMarkup=InlineKeyboardMarkup(keyboard=[[InlineKeyboardButton(text=2, url=null, callbackData=callback_precision_two, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=⭕ 3, url=null, callbackData=callback_precision_three, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)], [InlineKeyboardButton(text=4, url=null, callbackData=callback_precision_four, callbackGame=null, switchInlineQuery=null, switchInlineQueryCurrentChat=null, pay=null, loginUrl=null)]]), entities=null)
+2021-09-17 14:44:27,135[INFO ][elegram Executor][         org.groupOne.Controller] - 1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No
+2021-09-17 14:44:30,607[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:34,224[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:38,310[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:41,926[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:46,032[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:50,161[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:53,754[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:44:57,921[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:01,585[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:05,632[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:09,487[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:13,377[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:17,233[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:21,071[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:25,138[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:28,819[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:32,898[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:36,521[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:40,641[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:44,238[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:48,473[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:52,551[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:45:56,183[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:46:00,316[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:46:03,943[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:46:07,993[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:46:11,661[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 14:46:15,766[ERROR][egram Connection][datesreceivers.DefaultBotSession] - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+2021-09-17 15:23:32,773[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:23:32,788[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 15:23:32,788[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:23:33,444[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:23:33,456[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 15:23:33,466[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 15:23:33,905[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:23:38,136[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:23:41,341[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:26:09,529[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:26:09,545[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 15:26:09,545[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:26:10,214[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:26:10,230[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 15:26:10,236[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 15:26:16,583[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:26:18,215[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 15:26:21,305[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:03:14,490[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:03:14,506[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:03:14,506[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:03:15,141[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:03:15,144[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:03:15,150[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:07:03,412[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:03,428[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:07:03,428[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:04,067[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:04,067[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:07:04,081[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:07:07,042[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:09,242[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:11,745[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:15,191[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = get_info
+2021-09-17 16:07:15,192[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1293
+2021-09-17 16:07:15,196[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:16,758[INFO ][elegram Executor][         org.groupOne.Controller] - update1 = get_settings
+2021-09-17 16:07:16,758[INFO ][elegram Executor][         org.groupOne.Controller] - messageID1 = 1294
+2021-09-17 16:07:16,759[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:50,704[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:53,028[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:07:54,111[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:08:20,316[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:08:20,332[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:08:20,338[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:08:20,986[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:08:20,986[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:08:21,004[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:08:34,993[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:08:38,091[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:08:40,324[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:08:42,183[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:09:30,657[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:09:30,672[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:09:30,672[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:09:31,299[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:09:31,299[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:09:31,315[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:09:31,691[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:09:32,015[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:09:34,678[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:09:36,994[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:21:10,251[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:21:10,267[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:21:10,267[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:21:11,001[INFO ][main            ][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:21:11,017[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:21:11,025[INFO ][main            ][         org.groupOne.Controller] - Get_currency_bot
+2021-09-17 16:21:19,475[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:21:21,680[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:21:33,144[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:31:33,851[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:31:35,377[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:31:36,499[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI
+2021-09-17 16:31:37,757[INFO ][elegram Executor][         org.groupOne.Controller] - 1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI

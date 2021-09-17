@@ -5,3 +5,6 @@ target/
 *.iml
 *.ipr
 *.iws
+*.json
+*.xml
+src/main/java/org/groupOne/privat_api/PrivatRateArchive/

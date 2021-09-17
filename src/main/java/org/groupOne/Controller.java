@@ -30,8 +30,10 @@ public class Controller  extends TelegramLongPollingBot {
 
     static final Logger log = Logger.getLogger(Controller.class);
     private static final List<Settings> settingsList = new ArrayList<Settings>();
-    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
-    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+//    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
+//    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+    private static final String BOT_USER_NAME = "Get_currency_bot";
+    private static final String TOKEN = "1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI";
 
 //    private final ButtonContainer buttonContainer;
 //    private TimeUpdate timeUpdate;
