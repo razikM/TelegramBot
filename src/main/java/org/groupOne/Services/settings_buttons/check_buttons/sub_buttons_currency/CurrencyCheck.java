@@ -3,7 +3,10 @@ package org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_currenc
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import org.apache.log4j.Logger;
+import org.groupOne.ApplicationSettings;
 import org.groupOne.Services.Settings;
+import org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_banks.BankCheck;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
@@ -21,19 +24,21 @@ public class CurrencyCheck {
   List<InlineKeyboardButton> rowInlineCurrencyRUB = new ArrayList<>();
   List<List<InlineKeyboardButton>> rowsInlineCurrency = new ArrayList<>();
   EditMessageText new_message = new EditMessageText();
-  static List<Settings> settingsList = new ArrayList<Settings>();
+//  static List<Settings> settingsList = new ArrayList<Settings>();
+
+  static final Logger log = Logger.getLogger(CurrencyCheck.class);
 
   public EditMessageText sendCurrencyInlineButtonsChecked(long chatId, String data, Integer messageId) {
 
     String SEND_TEXT_CHECK_BANK = "\u200B\uD83D\uDCB4\u200B\uD83D\uDCB1\u200B\uD83D\uDCB5\u200B Выберите валюту: ";
-
-    List<Settings> listSettings = settingsList.stream().filter(t -> t.getChatId().equals(chatId)).collect(
-        Collectors.toList());
+    List<Settings> listSettings = ApplicationSettings.settingsList.stream()
+        .filter(t -> t.getChatId().equals(chatId))
+        .collect(Collectors.toList());
     Settings settings;
 
     if(listSettings.isEmpty()){
       settings = new Settings(chatId);
-      settingsList.add(settings);
+      ApplicationSettings.settingsList.add(settings);
     } else {
       settings = listSettings.get(0);
     }
@@ -51,8 +56,11 @@ public class CurrencyCheck {
     settings.setCheckRUB(settings.isCheckRUB());
 
     buttonCurrencyUSD = new UsdButtonCheck().sendUsdBankButtonCheck(settings.isCheckUSD());
+    settings.setCheckUSD(settings.isCheckUSD());
     buttonCurrencyEUR = new EurButtonCheck().sendEurBankButtonCheck(settings.isCheckEUR());
+    settings.setCheckEUR(settings.isCheckEUR());
     buttonCurrencyRUB = new RubButtonCheck().sendRubButtonCheck(settings.isCheckRUB());
+    settings.setCheckRUB(settings.isCheckRUB());
 
     rowInlineCurrencyUSD.add(buttonCurrencyUSD);
     rowInlineCurrencyEUR.add(buttonCurrencyEUR);

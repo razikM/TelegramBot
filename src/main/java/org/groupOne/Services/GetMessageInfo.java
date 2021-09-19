@@ -1,8 +1,10 @@
 package org.groupOne.Services;
 
 
+import org.apache.log4j.Logger;
 import org.groupOne.BankResponse;
 import org.groupOne.Services.button_enam.ButtonName;
+import org.groupOne.Services.settings_buttons.BankButton;
 import org.groupOne.facade.Facade;
 import org.groupOne.mono.MonoAPI;
 import org.groupOne.nbu_api.NBU_API;
@@ -16,6 +18,8 @@ import java.util.Optional;
 import static org.groupOne.Services.button_enam.ButtonName.NBU;
 
 public class GetMessageInfo {
+
+    static final Logger log = Logger.getLogger(GetMessageInfo.class);
     private List<BankResponse> responses;
     private Facade facade = new Facade(new PrivatApi(),new NBU_API(),new MonoAPI());
     private String[] precisionArray = {"#0","#0.0","#0.00","#0.000","#0.0000"};
@@ -25,6 +29,10 @@ public class GetMessageInfo {
         String precision;
         Optional<BankResponse> bankResponseOptional;
         precision = precisionArray[settings.getPrecision()];
+
+        log.info("Get_mes_Info_USD = " + settings.isCheckUSD());
+        log.info("Get_mes_Info_EUR = " + settings.isCheckEUR());
+        log.info("Get_mes_Info_RUB = " + settings.isCheckRUB());
 
         try {
             responses = facade.getInfo(bank);

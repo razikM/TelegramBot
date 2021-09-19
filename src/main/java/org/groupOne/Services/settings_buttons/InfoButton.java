@@ -3,6 +3,7 @@ package org.groupOne.Services.settings_buttons;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import org.apache.log4j.Logger;
 import org.groupOne.ApplicationSettings;
 import org.groupOne.Services.GetMessageInfo;
 import org.groupOne.Services.Settings;
@@ -14,6 +15,7 @@ import static org.groupOne.Services.button_enam.ButtonData.*;
 
 public class InfoButton {
 
+  static final Logger log = Logger.getLogger(InfoButton.class);
   InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
   InlineKeyboardButton inlineKeyboardButton1 = new InlineKeyboardButton();
   InlineKeyboardButton inlineKeyboardButton2 = new InlineKeyboardButton();
@@ -21,6 +23,7 @@ public class InfoButton {
   List<InlineKeyboardButton> keyboardButtonsRow2 = new ArrayList<>();
   List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
   SendMessage message = new SendMessage();
+  static List<Settings> settingsList = new ArrayList<Settings>();
   GetMessageInfo getMessageInfo = new GetMessageInfo();
 
   public SendMessage sendInfoMenu(long chatId) {
@@ -35,6 +38,9 @@ public class InfoButton {
     } else {
       settings = listSettings.get(0);
     }
+    log.info("InfoButton_USD = " + settings.isCheckUSD());
+    log.info("InfoButton_EUR = " + settings.isCheckEUR());
+    log.info("InfoButton_RUB = " + settings.isCheckRUB());
 
     inlineKeyboardButton1.setText(INFO.getButtonName());
     inlineKeyboardButton1.setCallbackData(INFO_DATA.getData());

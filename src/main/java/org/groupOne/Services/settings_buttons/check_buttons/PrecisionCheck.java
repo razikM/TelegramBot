@@ -24,6 +24,7 @@ public class PrecisionCheck {
   EditMessageText new_message = new EditMessageText();
 
   public void clearPrecision (Settings settings) {
+
     buttonPrecisionTwo.setText(PRECISION_TWO.getButtonName());
     buttonPrecisionTwo.setCallbackData(PRECISION_TWO_DATA.getData());
 

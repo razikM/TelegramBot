@@ -13,6 +13,7 @@ import org.groupOne.Services.settings_buttons.SettingsButton;
 import org.groupOne.Services.settings_buttons.StartButton;
 import org.groupOne.Services.settings_buttons.TimeUpdateButton;
 import org.groupOne.Services.settings_buttons.check_buttons.PrecisionCheck;
+import org.groupOne.Services.settings_buttons.check_buttons.TimeUpdateCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_banks.BankCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_currency.CurrencyCheck;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -30,9 +31,12 @@ public class Controller  extends TelegramLongPollingBot {
 
     static final Logger log = Logger.getLogger(Controller.class);
     private static final List<Settings> settingsList = new ArrayList<Settings>();
-    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
-    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+//    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
+//    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+    private static final String BOT_USER_NAME = "Get_currency_bot";
+    private static final String TOKEN = "1969421469:AAFUbBSRMYtyCFEYyInuAiuwODUe0dd6VYI";
     private BankButton bankButton = new BankButton();
+    Settings settings;
 
     public static void main(String[] args) {
         try {
@@ -59,15 +63,49 @@ public class Controller  extends TelegramLongPollingBot {
     @Override
     public void onUpdateReceived(Update update) {
 
-
         if (update.hasMessage()) {
 
+            String requestCommand = update.getMessage().getText();
+            long chat_ID = update.getMessage().getChatId();
+
+            List<Settings> listSettings = settingsList.stream()
+                .filter(t -> t.getChatId()
+                    .equals(chat_ID)).collect(Collectors.toList());
+//            Settings settings;
+
+            if(listSettings.isEmpty()){
+                settings = new Settings(chat_ID);
+                settingsList.add(settings);
+            } else {
+                settings = listSettings.get(0);
+            }
+
             if (update.getMessage().hasText()) {
-                if (update.getMessage().getText().equals(START.getButtonName())) {
+                if (requestCommand.equals(START.getButtonName())) {
 //          sendMsg(update.getMessage());
                     try {
 
                         execute(StartButton.sendStartMenu(update.getMessage().getChatId(), update));
+                    } catch (TelegramApiException e) {
+                        e.printStackTrace();
+                    }
+                }
+                else if (requestCommand.equals(TIME_UPDATE_NINE.getButtonName()) && settings.getTimeUpdate() == 9 ||
+                    requestCommand.equals(TIME_UPDATE_TEN.getButtonName()) && settings.getTimeUpdate() != 10 ||
+                    requestCommand.equals(TIME_UPDATE_ELEVEN.getButtonName()) && settings.getTimeUpdate() != 11 ||
+                    requestCommand.equals(TIME_UPDATE_TWELVE.getButtonName()) && settings.getTimeUpdate() != 12 ||
+                    requestCommand.equals(TIME_UPDATE_THIRTEEN.getButtonName()) && settings.getTimeUpdate() != 13 ||
+                    requestCommand.equals(TIME_UPDATE_FOURTEEN.getButtonName()) && settings.getTimeUpdate() != 14 ||
+                    requestCommand.equals(TIME_UPDATE_FIFTEEN.getButtonName()) && settings.getTimeUpdate() != 15 ||
+                    requestCommand.equals(TIME_UPDATE_SIXTEEN.getButtonName()) && settings.getTimeUpdate() != 16 ||
+                    requestCommand.equals(TIME_UPDATE_SEVENTEEN.getButtonName()) && settings.getTimeUpdate() != 17 ||
+                    requestCommand.equals(TIME_UPDATE_EIGHTEEN.getButtonName()) && settings.getTimeUpdate() != 18 ||
+                    requestCommand.equals(TIME_UPDATE_DISABLE.getButtonName()) && !settings.isCheckDisableTimeUpdate() ||
+                    requestCommand.equals(TIME_UPDATE_ENABLE.getButtonName()) && !settings.isCheckDisableTimeUpdate()
+                ) {
+                    log.info("new_mess data = " + requestCommand);
+                    try {
+                        execute(TimeUpdateCheck.sendTimeUpdateMenu(chat_ID, requestCommand));
                     } catch (TelegramApiException e) {
                         e.printStackTrace();
                     }
@@ -129,7 +167,7 @@ public class Controller  extends TelegramLongPollingBot {
         List<Settings> listSettings = settingsList.stream()
             .filter(t -> t.getChatId()
                 .equals(chatId)).collect(Collectors.toList());
-        Settings settings;
+//        Settings settings;
 
         if(listSettings.isEmpty()){
             settings = new Settings(chatId);
@@ -161,8 +199,28 @@ public class Controller  extends TelegramLongPollingBot {
             settings.setPrecision(2);
             return new PrecisionCheck().sendPrecisionInlineButtonsChecked(chatId, PRECISION_TWO_DATA.getData(), messageId);
         }
-
-        if (data.equals(USD_DATA.getData()) || data.equals(EUR_DATA.getData()) || data.equals(RUB_DATA.getData())) {
+        log.info("settings_NBU = " + settings.isCheckNBU());
+        log.info("settings_Privat = " + settings.isCheckPrivatBank());
+        log.info("settings_MONO = " + settings.isCheckMonoBank());
+        log.info("--================================================================--");
+        log.info("settings_USD = " + settings.isCheckUSD());
+        log.info("settings_EUR = " + settings.isCheckEUR());
+        log.info("settings_RUB = " + settings.isCheckRUB());
+        if (data.equals(USD_DATA.getData()) || data.equals(EUR_DATA.getData()) || data.equals(RUB_DATA.getData()))
+        {
+            switch (data) {
+                case "callback_USD":
+                    settings.setCheckUSD(!settings.isCheckUSD());
+                    break;
+                case "callback_EUR":
+                    settings.setCheckEUR(!settings.isCheckEUR());
+                    break;
+                case "callback_RUB":
+                    settings.setCheckRUB(!settings.isCheckRUB());
+                    break;
+                default:
+                    break;
+            }
             return new CurrencyCheck().sendCurrencyInlineButtonsChecked(chatId, data, messageId);
         }
         else if (data.equals(NBU_DATA.getData()) && !settings.isCheckNBU() ||
@@ -171,13 +229,13 @@ public class Controller  extends TelegramLongPollingBot {
             {
                 switch (data) {
                     case "callback_nbu_bank":
-                       // settings.setCheckNBU(true);
+                        settings.setCheckNBU(true);
                         break;
                     case "callback_privat_bank":
-                      //  settings.setCheckPrivatBank(true);
+                        settings.setCheckPrivatBank(true);
                         break;
                     case "callback_mono_bank":
-                      //  settings.setCheckMonoBank(true);
+                        settings.setCheckMonoBank(true);
                         break;
                     default:
                         break;
@@ -205,12 +263,4 @@ public class Controller  extends TelegramLongPollingBot {
         System.err.close();
         System.setErr(System.out);
     }
-
-//    private void executeCommand(String command,Long chatId, Update update){
-//        buttonContainer.retrieveButton(command).execute(update,buttonContainer.getSettingsCurrentUser(chatId));
-//    }
-//
-//    public Map<Long, Settings> getSettings() {
-//        return buttonContainer.getAlUserSettings();
-//    }
 }

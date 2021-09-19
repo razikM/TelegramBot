@@ -20,8 +20,8 @@ public class Settings {
         isCheckMonoBank = false;
         isCheckPrivatBank = true;
         isCheckNBU = false;
-//        timeUpdate = 9;
-//        isCheckDisableTimeUpdate = true;
+        timeUpdate = 9;
+        isCheckDisableTimeUpdate = true;
         precision = 2;
     }
 

@@ -3,6 +3,7 @@ package org.groupOne.Services.settings_buttons;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import org.groupOne.ApplicationSettings;
 import org.groupOne.Services.Settings;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
@@ -21,17 +22,17 @@ import static org.groupOne.Services.button_enam.ButtonData.*;
     List<InlineKeyboardButton> rowInlineCurrencyRUB = new ArrayList<>();
     List<List<InlineKeyboardButton>> rowsInlineCurrency = new ArrayList<>();
     SendMessage message = new SendMessage();
-    static List<Settings> settingsList = new ArrayList<Settings>();
 
     public SendMessage sendCurrencyInlineButtons(long chatId) {
 
-      List<Settings> listSettings = settingsList.stream().filter(t -> t.getChatId().equals(chatId)).collect(
-          Collectors.toList());
+      List<Settings> listSettings = ApplicationSettings.settingsList.stream()
+          .filter(t -> t.getChatId().equals(chatId))
+          .collect(Collectors.toList());
       Settings settings;
 
       if(listSettings.isEmpty()){
         settings = new Settings(chatId);
-        settingsList.add(settings);
+        ApplicationSettings.settingsList.add(settings);
       } else {
         settings = listSettings.get(0);
       }

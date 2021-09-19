@@ -39,9 +39,9 @@ public enum ButtonName {
 //    PRECISION_THREE_CHECKED("✅ 3"),
 //    PRECISION_FOUR_CHECKED("✅ 4"),
 
-    TIME_UPDATE("\uD83D\uDD57 Время оповещений"),
-    TIME_UPDATE_NINE("9"),
-    TIME_UPDATE_THEN("10"),
+    TIME_UPDATE("\uD83D\uDD57 Время оповещений"), //⏰
+    TIME_UPDATE_NINE("9"),                      //🕘
+    TIME_UPDATE_TEN("10"),
     TIME_UPDATE_ELEVEN("11"),
     TIME_UPDATE_TWELVE("12"),
     TIME_UPDATE_THIRTEEN("13"),
@@ -50,7 +50,18 @@ public enum ButtonName {
     TIME_UPDATE_SIXTEEN("16"),
     TIME_UPDATE_SEVENTEEN("17"),
     TIME_UPDATE_EIGHTEEN("18"),
-    TIME_UPDATE_DISABLE("Выключить уведомления");
+    TIME_UPDATE_NINE_CHOOSE("⏰9"),
+    TIME_UPDATE_TEN_CHOOSE("⏰10"),
+    TIME_UPDATE_ELEVEN_CHOOSE("⏰11"),
+    TIME_UPDATE_TWELVE_CHOOSE("⏰12"),
+    TIME_UPDATE_THIRTEEN_CHOOSE("⏰13"),
+    TIME_UPDATE_FOURTEEN_CHOOSE("⏰14"),
+    TIME_UPDATE_FIFTEEN_CHOOSE("⏰15"),
+    TIME_UPDATE_SIXTEEN_CHOOSE("⏰16"),
+    TIME_UPDATE_SEVENTEEN_CHOOSE("⏰17"),
+    TIME_UPDATE_EIGHTEEN_CHOOSE("⏰18"),
+    TIME_UPDATE_DISABLE("\uD83D\uDED1 Выключить уведомления"),
+    TIME_UPDATE_ENABLE("\uD83D\uDD0C Включить уведомления");
     private final String buttonName;
 
     ButtonName(String buttonName) {
