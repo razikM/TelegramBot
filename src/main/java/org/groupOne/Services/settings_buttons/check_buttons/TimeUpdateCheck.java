@@ -13,10 +13,9 @@ import static org.groupOne.Services.button_enam.ButtonName.*;
 
 public class TimeUpdateCheck {
 
-    public static String TIME_UPDATE_MESSAGE = "";// = //"Выберите время оповещений: ";
+    public static String TIME_UPDATE_MESSAGE = "";
     static ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
     static  Settings settings;
-
     static SendMessage message = new SendMessage();
 
   public static void clearTimeUpdate(Settings settings) {
@@ -31,10 +30,10 @@ public class TimeUpdateCheck {
     KeyboardButton.builder().text(TIME_UPDATE_SIXTEEN.getButtonName()).build();
     KeyboardButton.builder().text(TIME_UPDATE_SEVENTEEN.getButtonName()).build();
     KeyboardButton.builder().text(TIME_UPDATE_EIGHTEEN.getButtonName()).build();
-    KeyboardButton.builder().text(TIME_UPDATE_ENABLE.getButtonName()).build();
+//    KeyboardButton.builder().text(TIME_UPDATE_ENABLE.getButtonName()).build();
 
     settings.setTimeUpdate(0);
-    settings.setCheckDisableTimeUpdate(false);
+//    settings.setCheckDisableTimeUpdate(false);
   }
 
     public static SendMessage sendTimeUpdateMenu(long chatId, String data) {
@@ -143,13 +142,15 @@ public class TimeUpdateCheck {
       }
 
       if (data.equals(TIME_UPDATE_DISABLE.getButtonName())) {
-        keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(true));
-        settings.setCheckDisableTimeUpdate(true);
-        TIME_UPDATE_MESSAGE = "Уведомления включены";
+        keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(!settings.isCheckDisableTimeUpdate()));
+        settings.setCheckDisableTimeUpdate(!settings.isCheckDisableTimeUpdate());
+        TIME_UPDATE_MESSAGE = "Уведомления вкл.";
       } else if (data.equals(TIME_UPDATE_ENABLE.getButtonName())) {
-        keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(false));
-        settings.setCheckDisableTimeUpdate(false);
-        TIME_UPDATE_MESSAGE = "Уведомления выключены";
+        keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(!settings.isCheckDisableTimeUpdate()));
+        settings.setCheckDisableTimeUpdate(!settings.isCheckDisableTimeUpdate());
+        TIME_UPDATE_MESSAGE = "Уведомления выкл.";
+      } else {
+        keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(settings.isCheckDisableTimeUpdate()));
       }
 
       keyboard.add(keyboardFirstRow);

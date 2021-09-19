@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 import org.apache.log4j.Logger;
 import org.groupOne.ApplicationSettings;
 import org.groupOne.Services.Settings;
-import org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_banks.BankCheck;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
@@ -24,7 +23,6 @@ public class CurrencyCheck {
   List<InlineKeyboardButton> rowInlineCurrencyRUB = new ArrayList<>();
   List<List<InlineKeyboardButton>> rowsInlineCurrency = new ArrayList<>();
   EditMessageText new_message = new EditMessageText();
-//  static List<Settings> settingsList = new ArrayList<Settings>();
 
   static final Logger log = Logger.getLogger(CurrencyCheck.class);
 

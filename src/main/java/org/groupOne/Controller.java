@@ -12,6 +12,8 @@ import org.groupOne.Services.settings_buttons.PrecisionButton;
 import org.groupOne.Services.settings_buttons.SettingsButton;
 import org.groupOne.Services.settings_buttons.StartButton;
 import org.groupOne.Services.settings_buttons.TimeUpdateButton;
+import org.groupOne.Services.settings_buttons.check_buttons.DisableTimeUpdate;
+import org.groupOne.Services.settings_buttons.check_buttons.DisableTimeUpdateCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.PrecisionCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.TimeUpdateCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_banks.BankCheck;
@@ -33,7 +35,6 @@ public class Controller  extends TelegramLongPollingBot {
     private static final List<Settings> settingsList = new ArrayList<Settings>();
     private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
     private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
-
     private BankButton bankButton = new BankButton();
     Settings settings;
 
@@ -63,7 +64,6 @@ public class Controller  extends TelegramLongPollingBot {
     public void onUpdateReceived(Update update) {
 
         if (update.hasMessage()) {
-
             String requestCommand = update.getMessage().getText();
             long chat_ID = update.getMessage().getChatId();
 
@@ -90,21 +90,28 @@ public class Controller  extends TelegramLongPollingBot {
                     }
                 }
                 else if (requestCommand.equals(TIME_UPDATE_NINE.getButtonName()) && settings.getTimeUpdate() == 9 ||
-                    requestCommand.equals(TIME_UPDATE_TEN.getButtonName()) && settings.getTimeUpdate() != 10 ||
-                    requestCommand.equals(TIME_UPDATE_ELEVEN.getButtonName()) && settings.getTimeUpdate() != 11 ||
-                    requestCommand.equals(TIME_UPDATE_TWELVE.getButtonName()) && settings.getTimeUpdate() != 12 ||
-                    requestCommand.equals(TIME_UPDATE_THIRTEEN.getButtonName()) && settings.getTimeUpdate() != 13 ||
-                    requestCommand.equals(TIME_UPDATE_FOURTEEN.getButtonName()) && settings.getTimeUpdate() != 14 ||
-                    requestCommand.equals(TIME_UPDATE_FIFTEEN.getButtonName()) && settings.getTimeUpdate() != 15 ||
-                    requestCommand.equals(TIME_UPDATE_SIXTEEN.getButtonName()) && settings.getTimeUpdate() != 16 ||
-                    requestCommand.equals(TIME_UPDATE_SEVENTEEN.getButtonName()) && settings.getTimeUpdate() != 17 ||
-                    requestCommand.equals(TIME_UPDATE_EIGHTEEN.getButtonName()) && settings.getTimeUpdate() != 18 ||
-                    requestCommand.equals(TIME_UPDATE_DISABLE.getButtonName()) && !settings.isCheckDisableTimeUpdate() ||
-                    requestCommand.equals(TIME_UPDATE_ENABLE.getButtonName()) && !settings.isCheckDisableTimeUpdate()
+                         requestCommand.equals(TIME_UPDATE_TEN.getButtonName()) && settings.getTimeUpdate() != 10 ||
+                         requestCommand.equals(TIME_UPDATE_ELEVEN.getButtonName()) && settings.getTimeUpdate() != 11 ||
+                         requestCommand.equals(TIME_UPDATE_TWELVE.getButtonName()) && settings.getTimeUpdate() != 12 ||
+                         requestCommand.equals(TIME_UPDATE_THIRTEEN.getButtonName()) && settings.getTimeUpdate() != 13 ||
+                         requestCommand.equals(TIME_UPDATE_FOURTEEN.getButtonName()) && settings.getTimeUpdate() != 14 ||
+                         requestCommand.equals(TIME_UPDATE_FIFTEEN.getButtonName()) && settings.getTimeUpdate() != 15 ||
+                         requestCommand.equals(TIME_UPDATE_SIXTEEN.getButtonName()) && settings.getTimeUpdate() != 16 ||
+                         requestCommand.equals(TIME_UPDATE_SEVENTEEN.getButtonName()) && settings.getTimeUpdate() != 17 ||
+                         requestCommand.equals(TIME_UPDATE_EIGHTEEN.getButtonName()) && settings.getTimeUpdate() != 18
                 ) {
                     log.info("new_mess data = " + requestCommand);
                     try {
                         execute(TimeUpdateCheck.sendTimeUpdateMenu(chat_ID, requestCommand));
+                    } catch (TelegramApiException e) {
+                        e.printStackTrace();
+                    }
+                }
+                else if ((requestCommand.equals(TIME_UPDATE_DISABLE.getButtonName()) && settings.isCheckDisableTimeUpdate()) ||
+                        (requestCommand.equals(TIME_UPDATE_ENABLE.getButtonName()) && settings.isCheckDisableTimeUpdate())
+                ) {
+                    try {
+                        execute(DisableTimeUpdateCheck.sendTimeUpdateDisable(chat_ID, requestCommand));
                     } catch (TelegramApiException e) {
                         e.printStackTrace();
                     }
@@ -168,7 +175,7 @@ public class Controller  extends TelegramLongPollingBot {
                 .equals(chatId)).collect(Collectors.toList());
 //        Settings settings;
 
-        if(listSettings.isEmpty()){
+        if (listSettings.isEmpty()) {
             settings = new Settings(chatId);
             settingsList.add(settings);
         } else {
