@@ -13,8 +13,8 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 public class Controller  extends TelegramLongPollingBot {
     static final Logger log = Logger.getLogger(Controller.class);
     private final ButtonContainer buttonContainer;
-    private static final String BOT_USER_NAME = "exchange_CLI_bot";
-    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
+    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
+    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
     private TimeUpdate timeUpdate;
 
     public Controller() {
