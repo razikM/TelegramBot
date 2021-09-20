@@ -1,4 +1,4 @@
-package org.groupOne.Services.timer;
+package org.groupOne.service.timer;
 
 import org.groupOne.Controller;
 
@@ -10,12 +10,14 @@ import java.util.concurrent.TimeUnit;
 public class TimeUpdate {
 
     private Timer timer;
+    private Date date;
     private Task task;
     private static final long ONE_HOUR = 3600000L;
 
-    public TimeUpdate(Controller telegramBot) {
+    public TimeUpdate(Controller controller) {
         this.timer = new Timer();
-        this.task = new Task(telegramBot);
+        this.date = new Date();
+        this.task = new Task(controller);
 
     }
 

@@ -1,13 +1,14 @@
-package org.groupOne.Services;
+package org.groupOne.service.button;
 
 public class Settings {
+
     private boolean isCheckUSD;
     private boolean isCheckEUR;
-    private boolean isCheckRUB;
+    private boolean isCheckRUR;
     private boolean isCheckMonoBank;
     private boolean isCheckPrivatBank;
     private boolean isCheckNBU;
-    private Integer timeUpdate;
+    private Integer TimeUpdate;
     private boolean isCheckDisableTimeUpdate;
     private Integer precision;
     private Long chatId;
@@ -16,13 +17,17 @@ public class Settings {
         this.chatId = chatId;
         isCheckUSD = true;
         isCheckEUR = false;
-        isCheckRUB = false;
+        isCheckRUR = false;
         isCheckMonoBank = false;
-        isCheckPrivatBank = true;
-        isCheckNBU = false;
-//        timeUpdate = 9;
-//        isCheckDisableTimeUpdate = true;
+        isCheckPrivatBank = false;
+        isCheckNBU = true;
+        TimeUpdate = 9;
+        isCheckDisableTimeUpdate = true;
         precision = 2;
+    }
+
+    public void setChatId(Long chatId) {
+        this.chatId = chatId;
     }
 
     public Long getChatId() {
@@ -45,12 +50,12 @@ public class Settings {
         isCheckEUR = checkEUR;
     }
 
-    public boolean isCheckRUB() {
-        return isCheckRUB;
+    public boolean isCheckRUR() {
+        return isCheckRUR;
     }
 
-    public void setCheckRUB(boolean checkRUB) {
-        isCheckRUB = checkRUB;
+    public void setCheckRUR(boolean checkRUR) {
+        isCheckRUR = checkRUR;
     }
 
     public boolean isCheckMonoBank() {
@@ -78,11 +83,11 @@ public class Settings {
     }
 
     public Integer getTimeUpdate() {
-        return timeUpdate;
+        return TimeUpdate;
     }
 
     public void setTimeUpdate(Integer timeUpdate) {
-        this.timeUpdate = timeUpdate;
+        TimeUpdate = timeUpdate;
     }
 
     public boolean isCheckDisableTimeUpdate() {
