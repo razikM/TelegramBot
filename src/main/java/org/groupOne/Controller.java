@@ -17,6 +17,7 @@ import org.groupOne.Services.settings_buttons.check_buttons.PrecisionCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.TimeUpdateCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_banks.BankCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_currency.CurrencyCheck;
+import org.groupOne.Services.timer.TimeUpdate;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -32,9 +33,10 @@ public class Controller  extends TelegramLongPollingBot {
 
     static final Logger log = Logger.getLogger(Controller.class);
     private static final List<Settings> settingsList = new ArrayList<Settings>();
-    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
-    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
-
+    //private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
+   // private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+    private static final String BOT_USER_NAME = "exchange_CLI_bot";
+    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
     private BankButton bankButton = new BankButton();
     Settings settings;
 
@@ -47,7 +49,10 @@ public class Controller  extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
-
+    Controller() {
+        TimeUpdate timeUpdate = new TimeUpdate(this);
+        timeUpdate.startTimer();
+    }
     @Override
     public String getBotToken() {
         log.info(TOKEN);
