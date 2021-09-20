@@ -34,6 +34,7 @@ public class Controller  extends TelegramLongPollingBot {
     private static final List<Settings> settingsList = new ArrayList<Settings>();
     private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
     private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+
     private BankButton bankButton = new BankButton();
     Settings settings;
 
@@ -88,7 +89,7 @@ public class Controller  extends TelegramLongPollingBot {
                         e.printStackTrace();
                     }
                 }
-                else if (requestCommand.equals(TIME_UPDATE_NINE.getButtonName()) && settings.getTimeUpdate() == 9 ||
+                else if (requestCommand.equals(TIME_UPDATE_NINE.getButtonName()) && settings.getTimeUpdate() != 9 ||
                          requestCommand.equals(TIME_UPDATE_TEN.getButtonName()) && settings.getTimeUpdate() != 10 ||
                          requestCommand.equals(TIME_UPDATE_ELEVEN.getButtonName()) && settings.getTimeUpdate() != 11 ||
                          requestCommand.equals(TIME_UPDATE_TWELVE.getButtonName()) && settings.getTimeUpdate() != 12 ||
@@ -99,7 +100,42 @@ public class Controller  extends TelegramLongPollingBot {
                          requestCommand.equals(TIME_UPDATE_SEVENTEEN.getButtonName()) && settings.getTimeUpdate() != 17 ||
                          requestCommand.equals(TIME_UPDATE_EIGHTEEN.getButtonName()) && settings.getTimeUpdate() != 18
                 ) {
+                    switch (requestCommand) {
+                        case "9":
+                            settings.setTimeUpdate(9);
+                            break;
+                        case "10":
+                            settings.setTimeUpdate(10);
+                            break;
+                        case "11":
+                            settings.setTimeUpdate(11);
+                            break;
+                        case "12":
+                            settings.setTimeUpdate(12);
+                            break;
+                        case "13":
+                            settings.setTimeUpdate(13);
+                            break;
+                        case "14":
+                            settings.setTimeUpdate(14);
+                            break;
+                        case "15":
+                            settings.setTimeUpdate(15);
+                            break;
+                        case "16":
+                            settings.setTimeUpdate(16);
+                            break;
+                        case "17":
+                            settings.setTimeUpdate(17);
+                            break;
+                        case "18":
+                            settings.setTimeUpdate(18);
+                            break;
+                        default:
+                            break;
+                    }
                     log.info("new_mess data = " + requestCommand);
+                    log.info("settings_getTimeUpdate = " + settings.getTimeUpdate());
                     try {
                         execute(TimeUpdateCheck.sendTimeUpdateMenu(chat_ID, requestCommand));
                     } catch (TelegramApiException e) {
