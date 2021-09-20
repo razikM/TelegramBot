@@ -12,7 +12,6 @@ import org.groupOne.Services.settings_buttons.PrecisionButton;
 import org.groupOne.Services.settings_buttons.SettingsButton;
 import org.groupOne.Services.settings_buttons.StartButton;
 import org.groupOne.Services.settings_buttons.TimeUpdateButton;
-import org.groupOne.Services.settings_buttons.check_buttons.DisableTimeUpdate;
 import org.groupOne.Services.settings_buttons.check_buttons.DisableTimeUpdateCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.PrecisionCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.TimeUpdateCheck;
