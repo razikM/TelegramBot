@@ -33,10 +33,10 @@ public class Controller  extends TelegramLongPollingBot {
 
     static final Logger log = Logger.getLogger(Controller.class);
     private static final List<Settings> settingsList = new ArrayList<Settings>();
-    //private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
-   // private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
-    private static final String BOT_USER_NAME = "exchange_CLI_bot";
-    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
+    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
+    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+//    private static final String BOT_USER_NAME = "exchange_CLI_bot";
+//    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
     private BankButton bankButton = new BankButton();
     Settings settings;
 
@@ -270,24 +270,30 @@ public class Controller  extends TelegramLongPollingBot {
             return new CurrencyCheck().sendCurrencyInlineButtonsChecked(chatId, data, messageId);
         }
         else if (data.equals(NBU_DATA.getData()) && !settings.isCheckNBU() ||
-                 data.equals(PRIVAT_BANK_DATA.getData()) && settings.isCheckPrivatBank() ||
+                 data.equals(PRIVAT_BANK_DATA.getData()) && !settings.isCheckPrivatBank() ||
                  data.equals(MONO_BANK_DATA.getData()) && !settings.isCheckMonoBank()) {
-            {
+
                 switch (data) {
                     case "callback_nbu_bank":
                         settings.setCheckNBU(true);
+                        settings.setCheckPrivatBank(false);
+                        settings.setCheckMonoBank(false);
                         break;
                     case "callback_privat_bank":
+                        settings.setCheckNBU(false);
                         settings.setCheckPrivatBank(true);
+                        settings.setCheckMonoBank(false);
                         break;
                     case "callback_mono_bank":
+                        settings.setCheckNBU(false);
+                        settings.setCheckPrivatBank(false);
                         settings.setCheckMonoBank(true);
                         break;
                     default:
                         break;
                 }
                 return new BankCheck().sendBankInlineButtonsChecked(chatId, data, messageId);
-            }
+
         }
         return null;
     }
