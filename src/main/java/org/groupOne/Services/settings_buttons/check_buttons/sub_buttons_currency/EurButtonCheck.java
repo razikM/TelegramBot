@@ -1,7 +1,7 @@
 package org.groupOne.Services.settings_buttons.check_buttons.sub_buttons_currency;
 
-import static org.groupOne.Services.button_enam.ButtonName.*;
-import static org.groupOne.Services.button_enam.ButtonData.*;
+import static org.groupOne.Services.button_enum.ButtonName.*;
+import static org.groupOne.Services.button_enum.ButtonData.*;
 
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 

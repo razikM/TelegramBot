@@ -5,8 +5,8 @@ import java.util.List;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
-import static org.groupOne.Services.button_enam.ButtonName.*;
-import static org.groupOne.Services.button_enam.ButtonData.*;
+import static org.groupOne.Services.button_enum.ButtonName.*;
+import static org.groupOne.Services.button_enum.ButtonData.*;
 
 public class SettingsButton {
 

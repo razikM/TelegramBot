@@ -3,8 +3,7 @@ package org.groupOne.Services;
 
 import org.apache.log4j.Logger;
 import org.groupOne.BankResponse;
-import org.groupOne.Services.button_enam.ButtonName;
-import org.groupOne.Services.settings_buttons.BankButton;
+import org.groupOne.Services.button_enum.ButtonName;
 import org.groupOne.facade.Facade;
 import org.groupOne.mono.MonoAPI;
 import org.groupOne.nbu_api.NBU_API;
@@ -15,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-import static org.groupOne.Services.button_enam.ButtonName.NBU;
+import static org.groupOne.Services.button_enum.ButtonName.NBU;
 
 public class GetMessageInfo {
 

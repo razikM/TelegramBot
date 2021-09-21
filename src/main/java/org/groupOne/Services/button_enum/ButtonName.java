@@ -1,4 +1,4 @@
-package org.groupOne.Services.button_enam;
+package org.groupOne.Services.button_enum;
 
 public enum ButtonName {
 

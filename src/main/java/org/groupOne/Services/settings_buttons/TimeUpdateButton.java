@@ -9,7 +9,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
-import static org.groupOne.Services.button_enam.ButtonName.*;
+import static org.groupOne.Services.button_enum.ButtonName.*;
 
 public class TimeUpdateButton {
 
@@ -98,9 +98,9 @@ public class TimeUpdateButton {
       keyboardForthRow.add(new KeyboardButton(TIME_UPDATE_EIGHTEEN.getButtonName()));
     }
     if (settings.isCheckDisableTimeUpdate()) {
-      keyboardForthRow.add(new KeyboardButton(TIME_UPDATE_DISABLE.getButtonName()));
-    } else {
       keyboardForthRow.add(new KeyboardButton(TIME_UPDATE_ENABLE.getButtonName()));
+    } else {
+      keyboardForthRow.add(new KeyboardButton(TIME_UPDATE_DISABLE.getButtonName()));
     }
 
     keyboard.add(keyboardFirstRow);

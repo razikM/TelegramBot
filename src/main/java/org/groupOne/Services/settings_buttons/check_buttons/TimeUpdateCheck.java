@@ -9,7 +9,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
-import static org.groupOne.Services.button_enam.ButtonName.*;
+import static org.groupOne.Services.button_enum.ButtonName.*;
 
 public class TimeUpdateCheck {
 
@@ -30,10 +30,8 @@ public class TimeUpdateCheck {
     KeyboardButton.builder().text(TIME_UPDATE_SIXTEEN.getButtonName()).build();
     KeyboardButton.builder().text(TIME_UPDATE_SEVENTEEN.getButtonName()).build();
     KeyboardButton.builder().text(TIME_UPDATE_EIGHTEEN.getButtonName()).build();
-//    KeyboardButton.builder().text(TIME_UPDATE_ENABLE.getButtonName()).build();
 
     settings.setTimeUpdate(0);
-//    settings.setCheckDisableTimeUpdate(false);
   }
 
     public static SendMessage sendTimeUpdateMenu(long chatId, String data) {
@@ -141,11 +139,11 @@ public class TimeUpdateCheck {
         keyboardForthRow.add(KeyboardButton.builder().text(TIME_UPDATE_EIGHTEEN.getButtonName()).build());
       }
 
-      if (data.equals(TIME_UPDATE_DISABLE.getButtonName())) {
+      if (data.equals(TIME_UPDATE_ENABLE.getButtonName())) {
         keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(!settings.isCheckDisableTimeUpdate()));
         settings.setCheckDisableTimeUpdate(!settings.isCheckDisableTimeUpdate());
         TIME_UPDATE_MESSAGE = "Уведомления вкл.";
-      } else if (data.equals(TIME_UPDATE_ENABLE.getButtonName())) {
+      } else if (data.equals(TIME_UPDATE_DISABLE.getButtonName())) {
         keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(!settings.isCheckDisableTimeUpdate()));
         settings.setCheckDisableTimeUpdate(!settings.isCheckDisableTimeUpdate());
         TIME_UPDATE_MESSAGE = "Уведомления выкл.";
