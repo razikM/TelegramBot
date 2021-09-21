@@ -5,13 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.apache.log4j.Logger;
 import org.groupOne.Services.Settings;
-import org.groupOne.Services.settings_buttons.BankButton;
-import org.groupOne.Services.settings_buttons.CurrencyButton;
-import org.groupOne.Services.settings_buttons.InfoButton;
-import org.groupOne.Services.settings_buttons.PrecisionButton;
-import org.groupOne.Services.settings_buttons.SettingsButton;
-import org.groupOne.Services.settings_buttons.StartButton;
-import org.groupOne.Services.settings_buttons.TimeUpdateButton;
+import org.groupOne.Services.settings_buttons.*;
 import org.groupOne.Services.settings_buttons.check_buttons.DisableTimeUpdateCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.PrecisionCheck;
 import org.groupOne.Services.settings_buttons.check_buttons.TimeUpdateCheck;
@@ -33,10 +27,10 @@ public class Controller  extends TelegramLongPollingBot {
 
     static final Logger log = Logger.getLogger(Controller.class);
     private static final List<Settings> settingsList = new ArrayList<Settings>();
-    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
-    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
-//    private static final String BOT_USER_NAME = "exchange_CLI_bot";
-//    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
+   // private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
+   // private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+   private static final String BOT_USER_NAME = "exchange_CLI_bot";
+    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
     private BankButton bankButton = new BankButton();
     Settings settings;
 
@@ -83,12 +77,16 @@ public class Controller  extends TelegramLongPollingBot {
             } else {
                 settings = listSettings.get(0);
             }
-
+              if(requestCommand.equals(HELP.getButtonName())){
+                  try {
+                      execute(HelpCommand.sendHelp(update));
+                  } catch (TelegramApiException e) {
+                      e.printStackTrace();
+                  }
+              }
             if (update.getMessage().hasText()) {
                 if (requestCommand.equals(START.getButtonName())) {
-//          sendMsg(update.getMessage());
                     try {
-
                         execute(StartButton.sendStartMenu(update.getMessage().getChatId(), update));
                     } catch (TelegramApiException e) {
                         e.printStackTrace();
