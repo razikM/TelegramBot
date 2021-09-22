@@ -57,6 +57,7 @@ public class MonoAPI {
                 }
             }
         }
+        counter = 0;
         return ListToTelegram;
     }
 
