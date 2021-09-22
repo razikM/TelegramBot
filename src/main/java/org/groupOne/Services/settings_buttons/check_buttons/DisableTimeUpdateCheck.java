@@ -1,6 +1,6 @@
 package org.groupOne.Services.settings_buttons.check_buttons;
 
-import static org.groupOne.Services.button_enam.ButtonName.*;
+import static org.groupOne.Services.button_enum.ButtonName.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -111,11 +111,11 @@ public class DisableTimeUpdateCheck {
       keyboardForthRow.add(KeyboardButton.builder().text(TIME_UPDATE_EIGHTEEN.getButtonName()).build());
     }
 
-    if (data.equals(TIME_UPDATE_DISABLE.getButtonName())) {
+    if (data.equals(TIME_UPDATE_ENABLE.getButtonName())) {
       keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(!settings.isCheckDisableTimeUpdate()));
       settings.setCheckDisableTimeUpdate(!settings.isCheckDisableTimeUpdate());
       TIME_UPDATE_MESSAGE = "Уведомления включены";
-    } else if (data.equals(TIME_UPDATE_ENABLE.getButtonName())) {
+    } else if (data.equals(TIME_UPDATE_DISABLE.getButtonName())) {
       keyboardForthRow.add(new DisableTimeUpdate().sendTimeUpdateMenu(!settings.isCheckDisableTimeUpdate()));
       settings.setCheckDisableTimeUpdate(!settings.isCheckDisableTimeUpdate());
       TIME_UPDATE_MESSAGE = "Уведомления выключены";
