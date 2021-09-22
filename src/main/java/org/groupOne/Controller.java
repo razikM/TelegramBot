@@ -18,8 +18,8 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import static org.groupOne.Services.button_enam.ButtonName.*;
-import static org.groupOne.Services.button_enam.ButtonData.*;
+import static org.groupOne.Services.button_enum.ButtonName.*;
+import static org.groupOne.Services.button_enum.ButtonData.*;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
@@ -27,10 +27,9 @@ public class Controller  extends TelegramLongPollingBot {
 
     static final Logger log = Logger.getLogger(Controller.class);
     private static final List<Settings> settingsList = new ArrayList<Settings>();
- //  private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
-   // private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
-    private static final String BOT_USER_NAME = "exchange_CLI_bot";
-    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
+    private static final String BOT_USER_NAME = "GO_IT_CurrencyInfo_bot";
+    private static final String TOKEN = "1905777974:AAGOt-2svPaZKinr_VsWGK-sirUgfP4V4No";
+
     private BankButton bankButton = new BankButton();
     Settings settings;
 
