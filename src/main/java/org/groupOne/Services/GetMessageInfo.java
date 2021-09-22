@@ -67,7 +67,7 @@ public class GetMessageInfo {
         priceBuy = format.format(bankResponse.get().getBuyRate());
         priceSale = format.format(bankResponse.get().getSellRate());
         return bankResponse.get().getCurrency() + "/UAH" + "\n" +
-                "Покупка: " + priceBuy + "\n" +
+                (bank == NBU ? priceBuy + "\n" : "Покупка: " + priceBuy + "\n") +
                 (bank == NBU ? "\n" : "Продажа: " + priceSale + "\n\n") ;
     }
 }
